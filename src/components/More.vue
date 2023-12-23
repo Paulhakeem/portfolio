@@ -10,7 +10,7 @@ import MySkills from "./MySkills.vue";
         My Awesome <br />
         <span class="text-green-500">Services</span>
       </h2>
-      <p class="text-md tracking-tighter text-gray-500">
+      <p class="text-md tracking-tighter text-gray-400">
         I Provide Wide Range Of Digital Services
       </p>
       <a href="https://wa.link/38fuqe" target="_blank">
@@ -33,7 +33,7 @@ import MySkills from "./MySkills.vue";
         >
          <i class="fa-solid fa-code text-blue-500 fa-4x pt-2 mb-4"></i>
         <p class="text-lg font-sans font-semibold text-gray-400">Website development</p>
-        <p class="text-sm pt-2 ml-2 mr-2 text-gray-500">
+        <p class="text-sm pt-2 ml-2 mr-2 text-gray-400">
           I design and develop high-end, custom-designed websites and web
           applications that will help you meet your growth, revenue, and profit
           objectives.
@@ -50,7 +50,7 @@ import MySkills from "./MySkills.vue";
         >
          <i class="fa-solid fa-pen-nib fa-4x text-blue-500 pt-2 mb-4"></i>
         <p class="text-lg font-sans font-semibold text-gray-400">Graphic Design</p>
-        <p class="text-sm pt-2 ml-2 mr-2 text-gray-500">
+        <p class="text-sm pt-2 ml-2 mr-2 text-gray-400">
           I design and create logos and other graphics designs that will appeal
           to your customer and it will be unique and recognizable.
         </p>
@@ -66,7 +66,7 @@ import MySkills from "./MySkills.vue";
         >
         <i class="fa-solid fa-bullhorn fa-4x text-blue-500 pt-2 mb-4"></i>
         <p class="text-lg font-sans font-semibold text-gray-400">Digital Marketing</p>
-        <p class="text-sm pt-2 ml-2 mr-2 text-gray-500">
+        <p class="text-sm pt-2 ml-2 mr-2 text-gray-400">
           I can manage social media marketing and help you put strategic social
           media content and/or social ads in front of the online users. This
           gives your business valuable, extensive and target exposure..
@@ -89,7 +89,7 @@ import MySkills from "./MySkills.vue";
         Some Info -
       </p>
       <div class="pt-8 ml-2 mr-2">
-        <p class="text-left text-gray-500">
+        <p class="text-left text-gray-400">
           I am a front-end web developer based out of Kenya. I enjoy combining
           logic and design to produce appealing, usable websites and
           applications. I provide both design and development services for
@@ -98,7 +98,7 @@ import MySkills from "./MySkills.vue";
           or languages. I feel at ease creating on the front end.
         </p>
         <br />
-        <p class="text-left text-gray-500">
+        <p class="text-left text-gray-400">
           I strongly use these standards when creating online projects, which
           gives my work both originality and scalability.
         </p>
@@ -114,10 +114,10 @@ import MySkills from "./MySkills.vue";
           class="relative h-60 w-60 items-center justify-center rounded-lg bg-slate-900 text-slate-300"
         >
         <i class="fa-solid fa-folder text-blue-500 fa-2x pt-2 mb-4"></i>
-          <p class="text-lg font-sans font-semibold text-gray-400">
+          <p class="text-lg font-sans font-semibold text-gray-300">
             SEO (Search Engine Optimization)
           </p>
-          <p class="text-sm pt-2 ml-2 mr-2 text-gray-500">
+          <p class="text-sm pt-2 ml-2 mr-2 text-gray-400">
             I employ best SEO practices like "Semantic HTML" and more on
             websites and projects I work on to improve the site visibility and
             rankings on Google.
@@ -133,8 +133,8 @@ import MySkills from "./MySkills.vue";
           class="relative h-60 w-60 items-center justify-center rounded-lg bg-slate-900 text-slate-300"
         >
         <i class="fa-solid fa-mobile text-blue-500 fa-2x pt-2 mb-4"></i>
-          <p class="text-lg font-sans font-semibold text-gray-400">Responsive Design</p>
-          <p class="text-sm pt-2 ml-2 mr-2 text-gray-500">
+          <p class="text-lg font-sans font-semibold text-gray-300">Responsive Design</p>
+          <p class="text-sm pt-2 ml-2 mr-2 text-gray-400">
             I am passionate about responsiveness and making the websites I build
             look good on different devices, browsers and cross platforms using
             both "mobile first" approach and desktop "media queries"

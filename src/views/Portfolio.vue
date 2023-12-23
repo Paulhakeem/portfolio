@@ -33,7 +33,7 @@ import More from "../components/More.vue";
         </h3>
       </div>
       <div class="text-left pt-6">
-        <p class="text-md tracking-wide font-light text-gray-500">
+        <p class="text-md tracking-wide font-light text-gray-400">
           Self tought <i>Front-end Web Developer</i> who enjoy building everything from small
           business websites to rich interactive websites. I create custom
           website to bring your idea into life and help businesses do better

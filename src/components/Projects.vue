@@ -35,15 +35,12 @@ const sendMessage = async () => {
       timeout: 2000,
     });
   }
-
 };
 </script>
 
 <template>
   <div>
-    <section
-      class="justify-center content-center place-content-center mx-auto mb-36"
-    >
+    <section class="justify-center content-center place-content-center mx-auto">
       <div class="">
         <h1
           class="text-center font-semibold text-2xl text-blue-500 tracking-wider"
@@ -52,155 +49,71 @@ const sendMessage = async () => {
         </h1>
       </div>
 
-      <div
-        class="flex ml-6 mr-6 space-x-6 lg:flex p-5 snap-proximity snap-x overflow-scroll touch-pan-x scroll-smooth hover:scroll-auto snap-normal"
-      >
-        <div class="text-lg text-center p-10 rounded-lg shadow-lg">
-          <div class="snap-center">
-            <div class="text-xl font-semibold pb-2">
-              <h1 class="text-gray-400">Expense Tracker</h1>
-            </div>
-            <img src="../assets/todo1.jpg" class="w-48" />
+      <div class="flex mx-6 space-x-6 lg:flex p-5 scroll-smooth justify-center">
+        <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+          <div class="text-center">
+            <img src="../assets/AI.JPG" alt="" class="w-96" />
           </div>
-          <a href="https://budget-app-eight-puce.vercel.app/" target="_blank">
-            <button
-              class="bg-blue-500 text-white rounded-md p-2 w-48 text-lg mt-10 uppercase hover:animate-bounce"
-            >
-              visit
-            </button>
-          </a>
-        </div>
-        <div class="text-lg text-center p-10 shadow-lg">
-          <div class="snap-center">
-            <div class="text-xl font-semibold pb-2">
-              <h1 class="text-gray-400">Realtime Weather App</h1>
+          <div class="pt-3">
+            <h1 class="text-blue-500 font-semibold">AI-car-Landing Page</h1>
+            <p class="text-pretty text-gray-400 text-sm">
+              A.I. Car Assistant Landing page design using Nuxt.js
+            </p>
+             <div class="flex gap-4 my-4"> 
+           <img src="../assets/nuxt.png" alt="nuxt logo" class="w-10">
+           <img src="../assets/tailwindcss.svg" alt="tailwindcss logo" class="w-8">
             </div>
-            <img src="../assets/weather.jpg" class="48" />
-          </div>
-          <a href="https://local-weather-app-red.vercel.app/" target="_blank">
             <button
-              class="bg-blue-500 text-white rounded-md p-2 w-48 text-lg mt-3 uppercase hover:animate-bounce"
+              class="bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
-              Visit
+              Open
             </button>
-          </a>
-        </div>
-        <div class="text-lg text-center p-10 rounded-lg shadow-lg">
-          <div class="snap-center">
-            <div class="text-xl font-semibold">
-              <h1 class="text-gray-400">Realtime Twitter</h1>
-              <span class="italic text-blue-500 font-thin text-xs"
-                >ongoing</span
-              >
-            </div>
-            <img src="../assets/twitter.jpg" class="w-52" />
           </div>
-          <a href="https://twitter-clone-gray-nu.vercel.app/" target="_blank">
-            <button
-              class="bg-blue-500 text-white rounded-md p-2 w-48 text-lg uppercase mt-4 hover:animate-bounce"
-            >
-              Visit
-            </button>
-          </a>
         </div>
 
-        <div class="text-lg text-center p-10 rounded-lg shadow-lg">
-          <div class="snap-center">
-            <div class="text-xl font-semibold pb-2">
-              <h1 class="text-gray-400">Movie App</h1>
-            </div>
-            <img src="../assets/movie.jpg" class="w-56" />
+        <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+          <div class="text-center">
+            <img src="../assets/tracker.JPG" alt="" class="w-96" />
           </div>
-          <a href="https://movie-nu-nine.vercel.app/" target="_blank">
+          <div class="pt-3">
+            <h1 class="text-blue-500 font-semibold">Expense Tracker</h1>
+            <p class="text-pretty text-gray-400 text-sm">
+              This app is designed to help you know how much money you spend in
+              your day to day activates.
+            </p>
+             <div class="flex gap-4 my-1"> 
+           <img src="../assets/nuxt.png" alt="nuxt logo" class="w-10">
+           <img src="../assets/firebase.svg" alt="firebase logo" class="w-8">
+           <img src="../assets/js.svg" alt="javascript logo" class="w-8">
+            </div>
             <button
-              class="bg-blue-500 text-white rounded-md p-2 w-48 text-lg uppercase mt-14 hover:animate-bounce"
+              class="bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
-              Visit
+              Open
             </button>
-          </a>
+          </div>
         </div>
 
-        <div class="text-lg text-center p-10 rounded-lg space-y-4 shadow-lg">
-          <div class="snap-center">
-            <div class="text-xl font-semibold pb-2">
-              <h1 class="text-gray-400">Simple Website</h1>
-            </div>
-            <img src="../assets/web.jpg" class="w-56" />
+        <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+          <div class="text-center">
+            <img src="../assets/notebook.JPG" alt="" class="w-96" />
           </div>
-          <a href="https://code-with-paul.vercel.app/" target="_blank">
-            <button
-              class="bg-blue-500 text-white rounded-md p-2 w-48 text-lg uppercase mt-10 hover:animate-bounce"
-            >
-              Visit
-            </button>
-          </a>
-        </div>
-
-        <div class="text-lg text-center p-10 rounded-lg space-y-4 shadow-lg">
-          <div class="snap-center">
-            <div class="text-xl font-semibold pb-2">
-              <h1 class="text-gray-400">Movie Version II</h1>
+          <div class="pt-3">
+            <h1 class="text-blue-500 font-semibold">Notebook</h1>
+            <p class="text-pretty text-gray-400 text-sm">
+              Simple Realtime Notebook 
+            </p>
+            <div class="flex gap-4 my-7"> 
+           <img src="../assets/vue.svg" alt="vue logo" class="w-8">
+           <img src="../assets/firebase.svg" alt="firebase logo" class="w-8">
+           <img src="../assets/js.svg" alt="javascript logo" class="w-8">
             </div>
-            <img src="../assets/horror.jpg" class="w-48" />
-          </div>
-          <a href="https://pre-movies.vercel.app/" target="_blank">
             <button
-              class="bg-blue-500 text-white rounded-md p-2 w-48 text-lg uppercase mt-10 hover:animate-bounce"
+              class="bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
-              Visit
+              Open
             </button>
-          </a>
-        </div>
-
-        <div class="text-lg text-center p-10 rounded-lg space-y-4 shadow-lg">
-          <div class="snap-center">
-            <div class="text-xl font-semibold pb-2">
-              <h1 class="text-gray-400">Medusa Online Store</h1>
-              <span class="italic text-blue-500 font-thin text-xs"
-                >ongoing</span
-              >
-            </div>
-            <img src="../assets/j4.jpg" class="w-72 mt-12" />
           </div>
-          <a href="https://medusa-sooty-nine.vercel.app/" target="_blank">
-            <button
-              class="bg-blue-500 text-white rounded-md p-2 w-48 text-lg uppercase mt-8 hover:animate-bounce"
-            >
-              Visit
-            </button>
-          </a>
-        </div>
-
-        <div class="text-lg text-center p-10 rounded-lg space-y-4 shadow-lg">
-          <div class="snap-center">
-            <div class="text-xl font-semibold pb-2">
-              <h1 class="text-gray-400">RealTime Todo</h1>
-            </div>
-            <img src="../assets/rt.jpg" class="w-52" />
-          </div>
-          <a href="https://realtime-todo-inky.vercel.app/" target="_blank">
-            <button
-              class="bg-blue-500 text-white rounded-md p-2 w-48 text-lg uppercase mt-10 hover:animate-bounce"
-            >
-              Visit
-            </button>
-          </a>
-        </div>
-
-        <div class="text-lg text-center p-10 rounded-lg space-y-4 shadow-lg">
-          <div class="snap-center">
-            <div class="text-xl font-semibold pb-2">
-              <h1 class="text-gray-400">Note Book</h1>
-            </div>
-            <img src="../assets/notebook.jpg" class="w-full mt-8" />
-          </div>
-          <a href="https://notebook-azure-delta.vercel.app/" target="_blank">
-            <button
-              class="bg-blue-500 text-white rounded-md p-2 w-48 text-lg uppercase mt-16 hover:animate-bounce"
-            >
-              Visit
-            </button>
-          </a>
         </div>
       </div>
     </section>

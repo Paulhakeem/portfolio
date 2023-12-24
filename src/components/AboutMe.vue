@@ -86,14 +86,14 @@ import { RouterLink } from "vue-router";
 
               <div>
                 <a
-                  href="https://web.facebook.com/paul.nyamawi.33"
+                  href="https://github.com/Paulhakeem"
                   target="_blank"
                 >
                   <button
                     class="bg-gradient-to-l from-blue-500 via-ogray-500 to-green-500 text-white text-lg rounded-md w-full p-2 tracking-wider hover:animate-bounce"
                   >
-                    <i class="fa-brands fa-facebook text-2xl pr-4"></i>
-                    Facebook
+                    <i class="fa-brands fa-github"></i>
+                  Github
                   </button>
                 </a>
               </div>

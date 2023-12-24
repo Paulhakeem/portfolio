@@ -6,7 +6,7 @@
     >
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
-          <img src="../assets/medusa.JPG" alt="" class="w-96" />
+          <img src="../assets/medusa.jpg" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">Online Store</h1>
@@ -34,7 +34,7 @@
 
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
-          <img src="../assets/moviev2.JPG" alt="" class="w-96" />
+          <img src="../assets/moviev2.jpg" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">Movie App V2</h1>
@@ -62,7 +62,7 @@
 
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
-          <img src="../assets/moviev1.JPG" alt="" class="w-96" />
+          <img src="../assets/moviev1.jpg" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">Movie app V1</h1>
@@ -90,7 +90,7 @@
 
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
-          <img src="../assets/todo.JPG" alt="" class="w-96" />
+          <img src="../assets/todo.jpg" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">RealTime Todo</h1>
@@ -119,7 +119,7 @@
 
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
-          <img src="../assets/weatherv1.JPG" alt="" class="w-96" />
+          <img src="../assets/weatherv1.jpg" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">Weather V1</h1>
@@ -148,7 +148,7 @@
 
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
-          <img src="../assets/website.JPG" alt="" class="w-96" />
+          <img src="../assets/website.jpg" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">website</h1>

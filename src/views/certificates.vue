@@ -13,7 +13,7 @@
     >
       <div id="box" class="text-lg p-10 w-96">
         <div class="text-center">
-          <img src="../assets/cert/cert.JPG" alt="" class="w-96" />
+          <img src="../assets/cert/cert.jpg" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">
@@ -34,7 +34,7 @@
 
       <div id="box" class="text-lg p-10 w-96">
         <div class="text-center">
-          <img src="../assets/cert/coursera.JPG" alt="" class="w-96" />
+          <img src="../assets/cert/coursera.jpg" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">

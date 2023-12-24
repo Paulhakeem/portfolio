@@ -34,7 +34,7 @@
 
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
-          <img src="../assets/movie v2.JPG" alt="" class="w-96" />
+          <img src="../assets/moviev2.JPG" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">Movie App V2</h1>
@@ -62,7 +62,7 @@
 
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
-          <img src="../assets/movie v1.JPG" alt="" class="w-96" />
+          <img src="../assets/moviev1.JPG" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">Movie app V1</h1>

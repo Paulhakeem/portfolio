@@ -8,10 +8,10 @@
       </button>
     </RouterLink>
 
-    <div
+    <div id="certificates"
       class="flex flex-wrap mx-6 space-x-6 lg:flex p-5 scroll-smooth justify-center"
     >
-      <div class="text-lg p-10 w-96">
+      <div id="box" class="text-lg p-10 w-96">
         <div class="text-center">
           <img src="../assets/cert/cert.JPG" alt="" class="w-96" />
         </div>
@@ -23,7 +23,7 @@
             href="https://www.coursera.org/account/accomplishments/certificate/BSDX46S4GW5E"
             target="_blank"
           >
-            <button
+            <button id="button"
               class="mt-6 bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg uppercase hover:animate-bounce"
             >
               Open
@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <div class="text-lg p-10 w-96">
+      <div id="box" class="text-lg p-10 w-96">
         <div class="text-center">
           <img src="../assets/cert/coursera.JPG" alt="" class="w-96" />
         </div>
@@ -44,7 +44,7 @@
             href="https://www.coursera.org/account/accomplishments/certificate/M4LQS2M73MAC"
             target="_blank"
           >
-            <button
+            <button id="button"
               class="bg-gradient-to-l from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
               Open

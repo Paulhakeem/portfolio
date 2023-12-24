@@ -41,7 +41,7 @@ const sendMessage = async () => {
 
 <template>
   <div>
-    <section class="justify-center content-center place-content-center mx-auto mb-20">
+    <section class="justify-center content-center place-content-center px-auto mb-20">
       <div class="">
         <h1
           class="text-center font-semibold text-2xl text-blue-500 tracking-wider"
@@ -51,9 +51,9 @@ const sendMessage = async () => {
       </div>
 
       <div
-        class="flex flex-wrap mx-6 space-x-6 lg:flex p-5 scroll-smooth justify-center"
+        class="project flex flex-wrap justify-center px-6 space-x-6 p-5 "
       >
-        <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+        <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
           <div class="text-center">
             <img src="../assets/AI.JPG" alt="" class="w-96" />
           </div>
@@ -62,7 +62,7 @@ const sendMessage = async () => {
             <p class="text-pretty text-gray-400 text-md">
               A.I. Car Assistant Landing page design using Nuxt.js
             </p>
-            <div class="flex gap-4 my-4">
+            <div class="img flex gap-4 my-4">
               <img src="../assets/nuxt.png" alt="nuxt logo" class="w-10" />
               <img
                 src="../assets/tailwindcss.svg"
@@ -80,17 +80,17 @@ const sendMessage = async () => {
           </div>
         </div>
 
-        <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+        <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
           <div class="text-center">
             <img src="../assets/tracker.JPG" alt="" class="w-96" />
           </div>
           <div class="pt-3">
             <h1 class="text-blue-500 font-semibold">Expense Tracker</h1>
-            <p class="text-pretty text-gray-400 text-md">
+            <p class="text-pretty text-gray-400 text-md text-pretty">
               This app is designed to help you know how much money you spend in
               your day to day activates.
             </p>
-            <div class="flex gap-4 my-1">
+            <div class="img flex gap-4 my-1">
               <img src="../assets/nuxt.png" alt="nuxt logo" class="w-10" />
               <img
                 src="../assets/firebase.svg"
@@ -109,7 +109,7 @@ const sendMessage = async () => {
           </div>
         </div>
 
-        <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+        <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
           <div class="text-center">
             <img src="../assets/notebook.JPG" alt="" class="w-96" />
           </div>
@@ -118,7 +118,7 @@ const sendMessage = async () => {
             <p class="text-pretty text-gray-400 text-md">
               Simple Realtime Notebook
             </p>
-            <div class="flex gap-4 my-8">
+            <div class="img flex gap-4 my-8">
               <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
               <img
                 src="../assets/firebase.svg"
@@ -205,6 +205,7 @@ const sendMessage = async () => {
             v-model="senderDetails.message"
             id="message"
             rows="3"
+            placeholder="NOT WORKING YET!! AM STILL WORKING ON IT"
             class="w-full p-3 rounded bg-gray-200 outline-none hover:outline-1 hover:outline-blue-500 text-gray-800"
           ></textarea>
           <div

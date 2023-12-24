@@ -8,10 +8,10 @@ import { RouterLink } from "vue-router";
         class="absolute -inset-0.5 rounded-md bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 opacity-75 blur"
       ></div>
       <div
-        class="relative w-full h-96 items-center justify-center rounded-lg bg-slate-900 text-slate-300"
+        class="relative w-full h-auto items-center justify-center rounded-lg bg-slate-900 text-slate-300"
       >
         <div
-          class="grid grid-cols-2 items-center text-center divide-x-2 divide-gray-400"
+          class="home flex flex-wrap justify-center gap-32 items-center text-center divide-x-2 divide-gray-400"
         >
           <div
             v-motion
@@ -50,9 +50,9 @@ import { RouterLink } from "vue-router";
             :enter="{ opacity: 1, x: 0, scale: 1 }"
             :variants="{ custom: { scale: 6 } }"
             :delay="200"
-            class="ml-10 mr-10 h-full"
+            class="m-8 h-full"
           >
-            <div class="pt-4 text-xl text-gray-200 font-serif font-medium">
+            <div class="pt-4 text-xl text-gray-200 font-serif font-medium ">
               <h4>
                 Lets know each other and have a chat. <br />
                 Follow me through the following platforms:
@@ -92,7 +92,7 @@ import { RouterLink } from "vue-router";
                   <button
                     class="bg-gradient-to-l from-blue-500 via-ogray-500 to-green-500 text-white text-lg rounded-md w-full p-2 tracking-wider hover:animate-bounce"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-github text-2xl mr-10"></i>
                   Github
                   </button>
                 </a>

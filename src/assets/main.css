@@ -13,4 +13,43 @@ body {
     .about {
         width: 96%;
     }
+    .home h3 {
+       padding-top: 2em;
+       font-size: 27px;
+    }
+    .home {
+        gap: 20px
+    }
+    .home h4 {
+        font-size: 14px;
+    }
+    .project {
+        justify-content: center;
+        text-align: center;
+        gap: 4em;
+        padding-top: 3em;
+    }
+    .project button{
+       width: 80%;
+      flex-wrap: wrap;
+    }
+    .img {
+        justify-content: center;
+    }
+    #box {
+        width: 100%;
+        padding: 2px;
+        box-shadow: none;
+        width: 100%;
+        padding-bottom: 2em;
+    }
+    #certificates {
+        justify-content: center;
+        text-align: center;
+    }
+    #certificates button{
+        width: 50%;
+    }
+   
+   
 }

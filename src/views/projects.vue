@@ -2,9 +2,9 @@
   <div>
     <buttons/>
     <div
-      class="flex flex-wrap mx-6 space-x-6 lg:flex p-5 scroll-smooth justify-center"
+      class="project flex flex-wrap mx-6 space-x-6 lg:flex p-5 scroll-smooth justify-center"
     >
-      <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+      <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
           <img src="../assets/medusa.JPG" alt="" class="w-96" />
         </div>
@@ -13,7 +13,7 @@
           <p class="text-pretty text-gray-400 text-md">
             Medusa is an online store
           </p>
-          <div class="flex gap-4 my-4">
+          <div class="img flex gap-4 my-4">
             <img src="../assets/vue.svg" alt="nuxt logo" class="w-10" />
             <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
             <img
@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+      <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
           <img src="../assets/movie v2.JPG" alt="" class="w-96" />
         </div>
@@ -41,7 +41,7 @@
           <p class="text-pretty text-gray-400 text-md">
             Simple movie app build using TMDB API
           </p>
-          <div class="flex gap-4 my-1">
+          <div class="img flex gap-4 my-1">
             <img src="../assets/vue.svg" alt="nuxt logo" class="w-10" />
             <img
               src="../assets/tailwindcss.svg"
@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+      <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
           <img src="../assets/movie v1.JPG" alt="" class="w-96" />
         </div>
@@ -69,7 +69,7 @@
           <p class="text-pretty text-gray-400 text-md">
             Simple movie app build using IMDB API
           </p>
-          <div class="flex gap-4 my-1">
+          <div class="img flex gap-4 my-1">
             <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
             <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
             <img
@@ -88,7 +88,7 @@
         </div>
       </div>
 
-      <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+      <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
           <img src="../assets/todo.JPG" alt="" class="w-96" />
         </div>
@@ -97,7 +97,7 @@
           <p class="text-pretty text-gray-400 text-md">
             Simple Realtime todo app
           </p>
-          <div class="flex gap-4 my-8">
+          <div class="img flex gap-4 my-8">
             <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
             <img
               src="../assets/tailwindcss.svg"
@@ -117,7 +117,7 @@
         </div>
       </div>
 
-      <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+      <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
           <img src="../assets/weather v1.JPG" alt="" class="w-96" />
         </div>
@@ -127,7 +127,7 @@
             Local weather app used by searching a city or a country to get the
             real time weather of the place
           </p>
-          <div class="flex gap-4 my-1">
+          <div class="img flex gap-4 my-1">
             <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
             <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
              <img
@@ -146,7 +146,7 @@
         </div>
       </div>
 
-      <div class="text-lg p-10 rounded-lg shadow-lg w-96">
+      <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
           <img src="../assets/website.JPG" alt="" class="w-96" />
         </div>
@@ -155,7 +155,7 @@
           <p class="text-pretty text-gray-400 text-md">
             Simple website
           </p>
-          <div class="flex gap-4 my-8">
+          <div class="img flex gap-4 my-8">
             <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
             <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
             <img

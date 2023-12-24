@@ -1,5 +1,6 @@
 <template>
   <div>
+    <buttons/>
     <div
       class="flex flex-wrap mx-6 space-x-6 lg:flex p-5 scroll-smooth justify-center"
     >
@@ -177,4 +178,6 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import buttons from "../components/buttons.vue";
+</script>

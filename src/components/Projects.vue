@@ -41,7 +41,7 @@ const sendMessage = async () => {
 
 <template>
   <div>
-    <section class="justify-center content-center place-content-center mx-auto">
+    <section class="justify-center content-center place-content-center mx-auto mb-20">
       <div class="">
         <h1
           class="text-center font-semibold text-2xl text-blue-500 tracking-wider"

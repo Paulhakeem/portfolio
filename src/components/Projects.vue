@@ -55,7 +55,7 @@ const sendMessage = async () => {
       >
         <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
           <div class="text-center">
-            <img src="../assets/AI.jpg" alt="" class="w-96" />
+            <img src="../assets/AI.png" alt="" class="w-96" />
           </div>
           <div class="pt-3">
             <h1 class="text-blue-500 font-semibold">AI-car-Landing Page</h1>
@@ -82,7 +82,7 @@ const sendMessage = async () => {
 
         <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
           <div class="text-center">
-            <img src="../assets/tracker.jpg" alt="" class="w-96" />
+            <img src="../assets/tracker.png" alt="" class="w-96" />
           </div>
           <div class="pt-3">
             <h1 class="text-blue-500 font-semibold">Expense Tracker</h1>
@@ -111,7 +111,7 @@ const sendMessage = async () => {
 
         <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
           <div class="text-center">
-            <img src="../assets/notebook.jpg" alt="" class="w-96" />
+            <img src="../assets/notebook.png" alt="" class="w-96" />
           </div>
           <div class="pt-3">
             <h1 class="text-blue-500 font-semibold">Notebook</h1>

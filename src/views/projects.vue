@@ -42,12 +42,12 @@
 <script setup>
 import {ref} from "vue"
 import buttons from "../components/buttons.vue";
-import medusa from "../assets/medusa.jpg";
-import moviev1 from "../assets/moviev1.jpg";
-import weatherv1 from "../assets/weatherv1.jpg";
-import moviev2 from "../assets/moviev2.jpg";
-import website from "../assets/website.jpg";
-import todo from "../assets/todo.jpg";
+import medusa from "../assets/medusa.png";
+import moviev1 from "../assets/moviev1.png";
+import weatherv1 from "../assets/weatherv1.png";
+import moviev2 from "../assets/moviev2.png";
+import website from "../assets/website.png";
+import todo from "../assets/todo.png";
 
 let projects = ref([
   {

@@ -205,58 +205,5 @@
 </template>
 
 <script setup>
-// import {ref} from "vue"
-// import buttons from "../components/buttons.vue";
-// import medusa from "../assets/medusa.png";
-// import moviev1 from "../assets/moviev1.png";
-// import weatherv1 from "../assets/weatherv1.png";
-// import moviev2 from "";
-// import website from "";
-// import todo from "";
-// import vue from "../assets/vue.svg";
-// import tailwindcss from "../assets/tailwindcss.svg";
-// import nuxt from "../assets/nuxt.png";
-// import js from "../assets/js.svg";
-// import firebase from "../assets/firebase.svg";
-
-// let projects = ref([
-//   {
-//     id: 2,
-//     heading: "Online Store",
-//     text: "Medusa is an online store",
-//     languages: [vue, js, firebase],
-//     image: medusa,
-//   },
-//   {
-//     id: 2,
-//     heading: "Movie app Version I",
-//     text: "Simple movie app build using IMDB API",
-//     image: moviev1,
-//   },
-
-//   {
-//     id: 3,
-//     heading: "Movie App Version II",
-//     text: " ",
-//     image: moviev2,
-//   },
-//   {
-//     id: 4,
-//     heading: "RealTime Todo",
-//     text: "Simple Realtime todo app",
-//     image: todo,
-//   },
-//   {
-//     id: 5,
-//     heading: "Weather Version I",
-//     text: "",
-//     image: weatherv1,
-//   },
-//   {
-//     id: 6,
-//     heading: "website",
-//     text: "Simple website",
-//     image: website,
-//   },
-// ]);
+import buttons from "../components/buttons.vue";
 </script>

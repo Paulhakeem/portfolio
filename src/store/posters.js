@@ -5,9 +5,9 @@ import { ref } from "vue";
 // // import bnb from "../assets/graphic/bnb.jpg"
 // import customer from "../assets/graphic/customer.jpg"
 import confirm from "../assets/graphic/confirm.jpg"
-// import dolphin from "../assets/graphic/dolphin.jpg"
-// // import jamhuri from "../assets/graphic/jamhuri.jpg"
-// // import offer from "../assets/graphic/offer.jpg"
+import dolphin from "../assets/graphic/dolphin.jpg"
+import jamhuri from "../assets/graphic/jamhuri.jpg"
+import offer from "../assets/graphic/offer.jpg"
 // import poster11 from "../assets/graphic/poster11.jpg"
 // import poster6 from "../assets/graphic/poster6.jpg"
 // import FISHION from "../assets/graphic/FISHION.jpg"
@@ -40,10 +40,10 @@ export const usePosterStore = defineStore('posters', () => {
     //     id: 3,
     //     image: customer,
     //   },
-    //   {
-    //     id: 3,
-    //     image: dolphin,
-    //   },
+      {
+        id: 3,
+        image: dolphin,
+      },
     //   {
     //     id: 3,
     //     image: ADVERT,
@@ -52,14 +52,14 @@ export const usePosterStore = defineStore('posters', () => {
       //   id: 3,
       //   image: bnb,
       // },
-      // {
-      //   id: 3,
-      //   image: jamhuri,
-      // },
-      // {
-      //   id: 3,
-      //   image: offer,
-      // },
+      {
+        id: 3,
+        image: jamhuri,
+      },
+      {
+        id: 3,
+        image: offer,
+      },
     //   {
     //     id: 3,
     //     image: poster11,

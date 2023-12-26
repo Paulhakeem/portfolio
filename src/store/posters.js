@@ -8,10 +8,10 @@ import confirm from "../assets/graphic/confirm.jpg"
 import dolphin from "../assets/graphic/dolphin.jpg"
 import jamhuri from "../assets/graphic/jamhuri.jpg"
 import offer from "../assets/graphic/offer.jpg"
-// import poster11 from "../assets/graphic/poster11.jpg"
-// import poster6 from "../assets/graphic/poster6.jpg"
-// import FISHION from "../assets/graphic/FISHION.jpg"
-// import madaraka from "../assets/graphic/madaraka.jpg"
+import poster11 from "../assets/graphic/poster11.jpg"
+import poster6 from "../assets/graphic/poster6.jpg"
+import FISHION from "../assets/graphic/FISHION.jpg"
+import madaraka from "../assets/graphic/madaraka.jpg"
 // import poster4 from "../assets/graphic/poster4.jpg"
 // import poster5 from "../assets/graphic/poster5.jpg"
 // // import wasini from "../assets/graphic/wasini.jpg"
@@ -60,22 +60,22 @@ export const usePosterStore = defineStore('posters', () => {
         id: 3,
         image: offer,
       },
-    //   {
-    //     id: 3,
-    //     image: poster11,
-    //   },
-    //   {
-    //     id: 3,
-    //     image: poster6,
-    //   },
-    //   {
-    //     id: 3,
-    //     image: FISHION,
-    //   },
-    //   {
-    //     id: 3,
-    //     image: madaraka,
-    //   },
+      {
+        id: 3,
+        image: poster11,
+      },
+      {
+        id: 3,
+        image: poster6,
+      },
+      {
+        id: 3,
+        image: FISHION,
+      },
+      {
+        id: 3,
+        image: madaraka,
+      },
     //   {
     //     id: 3,
     //     image: poster4,

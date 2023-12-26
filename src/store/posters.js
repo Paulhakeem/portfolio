@@ -12,11 +12,11 @@ import poster11 from "../assets/graphic/poster11.jpg"
 import poster6 from "../assets/graphic/poster6.jpg"
 import FISHION from "../assets/graphic/FISHION.jpg"
 import madaraka from "../assets/graphic/madaraka.jpg"
-// import poster4 from "../assets/graphic/poster4.jpg"
-// import poster5 from "../assets/graphic/poster5.jpg"
-// // import wasini from "../assets/graphic/wasini.jpg"
-// // import newyear from "../assets/graphic/newyear.jpg"
-// import may from "../assets/graphic/may.jpg"
+import poster4 from "../assets/graphic/poster4.jpg"
+import poster5 from "../assets/graphic/poster5.jpg"
+import wasini from "../assets/graphic/wasini.jpg"
+import newyear from "../assets/graphic/newyear.jpg"
+import may from "../assets/graphic/may.jpg"
 // import valentines from "../assets/graphic/valentines.jpg"
 // // import holiday from "../assets/graphic/holiday.jpg"
 // import farmlogo from "../assets/graphic/farmlogo.jpg"
@@ -76,26 +76,26 @@ export const usePosterStore = defineStore('posters', () => {
         id: 3,
         image: madaraka,
       },
-    //   {
-    //     id: 3,
-    //     image: poster4,
-    //   },
-    //   {
-    //     id: 3,
-    //     image: poster5,
-    //   },
-      // {
-      //   id: 3,
-      //   image: wasini,
-      // },
-      // {
-      //   id: 3,
-      //   image: newyear,
-      // },
-    //   {
-    //     id: 3,
-    //     image: may,
-    //   },
+      {
+        id: 3,
+        image: poster4,
+      },
+      {
+        id: 3,
+        image: poster5,
+      },
+      {
+        id: 3,
+        image: wasini,
+      },
+      {
+        id: 3,
+        image: newyear,
+      },
+      {
+        id: 3,
+        image: may,
+      },
     //   {
     //     id: 3,
     //     image: valentines,

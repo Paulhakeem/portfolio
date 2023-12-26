@@ -1,9 +1,9 @@
 import { defineStore } from 'pinia'
 import { ref } from "vue";
-// // import Apartment from "../assets/graphic/Apartment.jpg"
-// import ADVERT from "../assets/graphic/ADVERT.jpg"
-// // import bnb from "../assets/graphic/bnb.jpg"
-// import customer from "../assets/graphic/customer.jpg"
+import Apartment from "../assets/graphic/Apartment.jpg"
+import ADVERT from "../assets/graphic/ADVERT.jpg"
+import bnb from "../assets/graphic/bnb.jpg"
+import customer from "../assets/graphic/customer.jpg"
 import confirm from "../assets/graphic/confirm.jpg"
 import dolphin from "../assets/graphic/dolphin.jpg"
 import jamhuri from "../assets/graphic/jamhuri.jpg"
@@ -28,30 +28,30 @@ export const usePosterStore = defineStore('posters', () => {
    
     
     let posters = ref([
-      // {
-      //   id: 1,
-      //   image: Apartment,
-      // },
+      {
+        id: 1,
+        image: Apartment,
+      },
       {
         id: 2,
         image: confirm,
       },
-    //   {
-    //     id: 3,
-    //     image: customer,
-    //   },
+      {
+        id: 3,
+        image: customer,
+      },
       {
         id: 3,
         image: dolphin,
       },
-    //   {
-    //     id: 3,
-    //     image: ADVERT,
-    //   },
-      // {
-      //   id: 3,
-      //   image: bnb,
-      // },
+      {
+        id: 3,
+        image: ADVERT,
+      },
+      {
+        id: 3,
+        image: bnb,
+      },
       {
         id: 3,
         image: jamhuri,

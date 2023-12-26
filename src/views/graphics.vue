@@ -9,7 +9,7 @@
       </h3>
     </div>
 
-    <div class="flex flex-wrap justify-center gap-4 pt-10">
+    <!-- <div class="flex flex-wrap justify-center gap-4 pt-10">
       <div v-for="poster in usePoster.posters" :key="poster.id">
         <div class="relative mx-4">
           <div
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- flyer -->
 
@@ -34,7 +34,7 @@
       </h3>
     </div>
 
-    <div class="flex flex-wrap justify-center gap-4 pt-10">
+    <!-- <div class="flex flex-wrap justify-center gap-4 pt-10">
       <div v-for="flyer in useFlyer.flyers" :key="flyer.id">
         <div class="relative mx-4">
           <div
@@ -47,16 +47,16 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script setup>
 import buttons from "../components/buttons.vue";
-import { usePosterStore } from "../store/posters.js";
-import { useFlyerStore } from "../store/flyer.js";
-const usePoster = usePosterStore();
-const useFlyer = useFlyerStore();
+// import { usePosterStore } from "../store/posters.js";
+// import { useFlyerStore } from "../store/flyer.js";
+// const usePoster = usePosterStore();
+// const useFlyer = useFlyerStore();
 </script>
 
 <style lang="scss" scoped></style>

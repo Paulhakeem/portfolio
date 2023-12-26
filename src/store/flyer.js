@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref } from "vue";
-import offerflyer from "../assets/graphic/offerflyer.png"
+import offerflyer from "../assets/graphic/offerflyer.jpg"
 import school from "../assets/graphic/school.png"
 import vale from "../assets/graphic/vale.png"
 import wasinibirthday from "../assets/graphic/wasinibirthday.png"

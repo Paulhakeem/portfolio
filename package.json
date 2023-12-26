@@ -8,8 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.16",
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
+    "@vueuse/core": "^10.7.0",
     "@vueuse/motion": "^2.0.0",
     "pinia": "^2.1.7",
     "resend": "^2.0.0",

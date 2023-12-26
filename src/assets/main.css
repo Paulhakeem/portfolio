@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    background-color: #121a27;
+    /* background-color: ; */
     overscroll-behavior: auto;
 }
 @media screen and (max-width: 500px) {

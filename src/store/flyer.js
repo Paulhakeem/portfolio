@@ -11,10 +11,10 @@ export const useFlyerStore = defineStore('flyers', () => {
    
     
     let flyers = ref([
-      // {
-      //   id: 1,
-      //   image: offerflyer,
-      // },
+      {
+        id: 1,
+        image: offerflyer,
+      },
       {
         id: 2,
         image: school,

@@ -17,12 +17,12 @@ import poster5 from "../assets/graphic/poster5.jpg"
 import wasini from "../assets/graphic/wasini.jpg"
 import newyear from "../assets/graphic/newyear.jpg"
 import may from "../assets/graphic/may.jpg"
-// import valentines from "../assets/graphic/valentines.jpg"
-// // import holiday from "../assets/graphic/holiday.jpg"
-// import farmlogo from "../assets/graphic/farmlogo.jpg"
-// import waterlogo from "../assets/graphic/waterlogo.jpg"
-// import logo from "../assets/graphic/logo.jpg"
-// import logo1 from "../assets/graphic/logo1.jpg"
+import valentines from "../assets/graphic/valentines.jpg"
+import holiday from "../assets/graphic/holiday.jpg"
+import farmlogo from "../assets/graphic/farmlogo.jpg"
+import waterlogo from "../assets/graphic/waterlogo.jpg"
+import logo from "../assets/graphic/logo.jpg"
+import logo1 from "../assets/graphic/logo1.jpg"
 
 export const usePosterStore = defineStore('posters', () => {
    
@@ -96,30 +96,30 @@ export const usePosterStore = defineStore('posters', () => {
         id: 3,
         image: may,
       },
-    //   {
-    //     id: 3,
-    //     image: valentines,
-    //   },
-      // {
-      //   id: 3,
-      //   image: holiday,
-      // },
-    //   {
-    //     id: 3,
-    //     image: waterlogo,
-    //   },
-    //   {
-    //     id: 3,
-    //     image: farmlogo,
-    //   },
-    //   {
-    //     id: 3,
-    //     image: logo1,
-    //   },
-    //   {
-    //     id: 3,
-    //     image: logo,
-    //   },
+      {
+        id: 3,
+        image: valentines,
+      },
+      {
+        id: 3,
+        image: holiday,
+      },
+      {
+        id: 3,
+        image: waterlogo,
+      },
+      {
+        id: 3,
+        image: farmlogo,
+      },
+      {
+        id: 3,
+        image: logo1,
+      },
+      {
+        id: 3,
+        image: logo,
+      },
     ]);
 
     return {posters}

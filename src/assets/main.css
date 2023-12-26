@@ -6,6 +6,11 @@ body {
     /* background-color: ; */
     overscroll-behavior: auto;
 }
+.dark {
+    background: #121a27;
+    color: gray;
+
+  }
 @media screen and (max-width: 500px) {
     .profile{
         width: 96%;
@@ -50,6 +55,15 @@ body {
     #certificates button{
         width: 50%;
     }
-   
-   
+    #button {
+        text-align: center;
+        justify-content: center;
+    }
+   #button button {
+    width: 100%;
+    font-size: 12px;
+   }
+   .switch {
+    padding-right: 1.4em;
+   }
 }

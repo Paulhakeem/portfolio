@@ -156,7 +156,7 @@ const sendMessage = async () => {
     >
       <div class="flex flex-col justify-between">
         <div class="space-y-2 pt-2">
-          <h2 class="text-4xl font-bold leadi lg:text-3xl text-blue-500">
+          <h2 id="contact" class="text-4xl font-bold leadi lg:text-3xl text-blue-500">
             Let's have Chat!🤗
           </h2>
           <div class="pt-6">

@@ -18,6 +18,13 @@ body {
     .about {
         width: 96%;
     }
+    #user img{
+        justify-content: center;
+        padding-right: 3em;
+    }
+    #user-grid {
+        padding-top: 2.5em;
+    }
     .home h3 {
        padding-top: 2em;
        font-size: 27px;
@@ -57,13 +64,16 @@ body {
     }
     #button {
         text-align: center;
-        justify-content: center;
+        justify-content: space-between;
     }
    #button button {
     width: 100%;
-    font-size: 12px;
+    font-size: 10px;
    }
    .switch {
     padding-right: 1.4em;
+   }
+   #contact{
+    font-size: 2em;
    }
 }

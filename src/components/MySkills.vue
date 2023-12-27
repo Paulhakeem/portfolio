@@ -19,41 +19,41 @@ import Projects from "./Projects.vue";
           <img class="w-14 mx-2" src="../assets/word.svg" />
           <p class="text-gray-400 text-sm">WordPress</p>
         </div>
-        <div>
+        <div class="text-center justify-center">
           <img class="w-14 mx-2" src="../assets/html.svg" />
-          <p class="text-gray-400 pl-4">HTML</p>
+          <p class="text-gray-400">HTML</p>
         </div>
-        <div>
+        <div class="text-center justify-center">
           <img class="w-14 mx-2" src="../assets/css.svg" />
-          <p class="text-gray-400 pl-6">CSS</p>
+          <p class="text-gray-400">CSS</p>
         </div>
-        <div>
+        <div class="text-center justify-center">
           <img class="w-14 mx-2" src="../assets/tailwindcss.svg" />
-          <p class="text-gray-400 pr-2">Tailwindcss</p>
+          <p class="text-gray-400">Tailwindcss</p>
         </div>
-        <div>
+        <div class="text-center justify-center">
           <img class="w-14 mx-2" src="../assets/js.svg" />
-          <p class="text-gray-400 pl--1">JavaScript</p>
+          <p class="text-gray-400">JavaScript</p>
         </div>
-        <div>
+        <div class="text-center justify-center">
           <img class="w-14 mx-2" src="../assets/vue.svg" />
-          <p class="text-gray-400 pl-4">Vue.js</p>
+          <p class="text-gray-400">Vue.js</p>
         </div>
-         <div>
+         <div class="text-center justify-center">
           <img class="w-14 mx-2" src="../assets/nuxt.png" />
-          <p class="text-gray-400 pl-4">Nuxt.js</p>
+          <p class="text-gray-400">Nuxt.js</p>
         </div>
-        <div>
+        <div class="text-center justify-center">
           <img class="w-14 mx-2" src="../assets/firebase.svg" />
-          <p class="text-gray-400 pl-2">Firebase</p>
+          <p class="text-gray-400">Firebase</p>
         </div>
-        <div>
+        <div class="text-center justify-center">
           <img class="w-14 mx-2" src="../assets/adobei.svg" />
-          <p class="text-gray-400 pl-1">Illustrator</p>
+          <p class="text-gray-400">Illustrator</p>
         </div>
-        <div>
+        <div class="text-center justify-center">
           <img class="w-14 mx-2" src="../assets/adobep.svg" />
-          <p class="text-gray-400 pl-3">Photoshop</p>
+          <p class="text-gray-400">Photoshop</p>
         </div>
       </div>
     </div>

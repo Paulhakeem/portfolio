@@ -9,7 +9,7 @@
     </RouterLink>
 
     <div id="certificates"
-      class="flex flex-wrap mx-6 space-x-6 lg:flex p-5 scroll-smooth justify-center"
+      class="flex flex-wrap px-6 space-x-6 lg:flex p-5 scroll-smooth justify-center"
     >
       <div id="box" class="text-lg p-10 w-96">
         <div class="text-center">

@@ -90,7 +90,7 @@ const sendMessage = async () => {
               This app is designed to help you know how much money you spend in
               your day to day activates.
             </p>
-            <div class="img flex gap-4 my-1">
+            <div class="img flex gap-4">
               <img src="../assets/nuxt.png" alt="nuxt logo" class="w-10" />
               <img
                 src="../assets/firebase.svg"

@@ -2,7 +2,7 @@
   <div>
     <buttons />
     <div
-      class="project flex flex-wrap mx-6 space-x-6 lg:flex p-5 scroll-smooth justify-center"
+      class="project flex flex-wrap px-6 space-x-6 lg:flex p-5 scroll-smooth justify-center"
     >
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">

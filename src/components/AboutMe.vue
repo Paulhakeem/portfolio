@@ -10,7 +10,7 @@ import { RouterLink } from "vue-router";
       <div
         class="relative w-full h-auto items-center justify-center rounded-lg bg-slate-900 text-slate-300"
       >
-        <div
+        <div id="about"
           class="home flex flex-wrap justify-center gap-32 items-center text-center divide-x-2 divide-gray-400"
         >
           <div

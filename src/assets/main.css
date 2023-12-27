@@ -3,77 +3,90 @@
 @tailwind utilities;
 
 body {
-    /* background-color: ; */
-    overscroll-behavior: auto;
+  /* background-color: ; */
+  overscroll-behavior: auto;
 }
 .dark {
-    background: #121a27;
-    color: gray;
-
-  }
+  background: #121a27;
+  color: gray;
+}
 @media screen and (max-width: 500px) {
-    .profile{
-        width: 96%;
-    }
-    .about {
-        width: 96%;
-    }
-    #user img{
-        justify-content: center;
-        padding-right: 3em;
-    }
-    #user-grid {
-        padding-top: 2.5em;
-    }
-    .home h3 {
-       padding-top: 2em;
-       font-size: 27px;
-    }
-    .home {
-        gap: 20px
-    }
-    .home h4 {
-        font-size: 14px;
-    }
-    .project {
-        justify-content: center;
-        text-align: center;
-        gap: 4em;
-        padding-top: 3em;
-    }
-    .project button{
-       width: 80%;
-      flex-wrap: wrap;
-    }
-    .img {
-        justify-content: center;
-    }
-    #box {
-        width: 100%;
-        padding: 2px;
-        box-shadow: none;
-        width: 100%;
-        padding-bottom: 2em;
-    }
-    #certificates {
-        justify-content: center;
-        text-align: center;
-    }
-    #certificates button{
-        width: 50%;
-    }
-    #button {
-        text-align: center;
-        justify-content: space-between;
-    }
-   #button button {
+  .profile {
+    width: 96%;
+  }
+  .about {
+    width: 96%;
+  }
+  #about {
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: none;
+  }
+  #user img {
+    justify-content: center;
+    padding-right: 3em;
+  }
+  #user-grid {
+    padding-top: 2.5em;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  #user-grid h3 {
+    font-size: 2em;
+  }
+  #user-grid button {
     width: 100%;
     font-size: 10px;
-   }
-   .switch {
+  }
+  .home h3 {
+    padding-top: 2em;
+    font-size: 27px;
+  }
+  .home {
+    gap: 20px;
+  }
+  .home h4 {
+    font-size: 14px;
+  }
+  .project {
+    justify-content: center;
+    text-align: center;
+    gap: 4em;
+    padding-top: 3em;
+  }
+  .project button {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+  .img {
+    justify-content: center;
+  }
+  #box {
+    width: 100%;
+    padding: 2px;
+    box-shadow: none;
+    width: 100%;
+    padding-bottom: 2em;
+  }
+  #certificates {
+    justify-content: center;
+    text-align: center;
+  }
+  #certificates button {
+    width: 50%;
+  }
+  #button {
+    text-align: center;
+    justify-content: space-between;
+  }
+  #button button {
+    width: 100%;
+    font-size: 10px;
+  }
+  .switch {
     padding-right: 1.4em;
-   }
-   #contact{
+  }
+  #contact {
     font-size: 2em;
-   }
+  }
 }

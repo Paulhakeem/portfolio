@@ -19,7 +19,7 @@ import buttons from "../components/buttons.vue";
         <div
           class="bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 h-10 w-10 rounded-full justify-center"
         ></div>
-        <img src="../assets/bg.png" alt="profile-picture" />
+        <img src="../assets/bg.png" alt="profile-picture" class="top-0 right-10" />
       </div>
 
       <div
@@ -29,7 +29,7 @@ import buttons from "../components/buttons.vue";
         :enter="{ opacity: 1, x: 0, scale: 1 }"
         :variants="{ custom: { scale: 6 } }"
         :delay="200"
-        class="pt-24 ml-20 mr-12"
+        class="pt-24 px-20"
       >
         <div class="flex">
           <h3

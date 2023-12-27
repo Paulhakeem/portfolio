@@ -41,7 +41,9 @@ const sendMessage = async () => {
 
 <template>
   <div>
-    <section class="justify-center content-center place-content-center px-auto mb-20">
+    <section
+      class="justify-center content-center place-content-center px-auto mb-20"
+    >
       <div class="">
         <h1
           class="text-center font-semibold text-2xl text-blue-500 tracking-wider"
@@ -50,9 +52,7 @@ const sendMessage = async () => {
         </h1>
       </div>
 
-      <div
-        class="project flex flex-wrap justify-center px-6 space-x-6 p-5 "
-      >
+      <div class="project flex flex-wrap justify-center px-6 space-x-6 p-5">
         <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
           <div class="text-center">
             <img src="../assets/AI.png" alt="" class="w-96" />
@@ -139,14 +139,13 @@ const sendMessage = async () => {
       </div>
       <div class="justify-center text-center">
         <RouterLink to="/projects">
-         <button
-          class="bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 size-60 text-lg mt-3 uppercase hover:animate-bounce"
-        >
-          More
-          <i class="fa-solid fa-circle-chevron-right"></i>
-        </button>
+          <button
+            class="bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 size-60 text-lg mt-3 uppercase hover:animate-bounce"
+          >
+            More
+            <i class="fa-solid fa-circle-chevron-right"></i>
+          </button>
         </RouterLink>
-       
       </div>
     </section>
 
@@ -156,13 +155,29 @@ const sendMessage = async () => {
       class="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg shadow-lg mb-6 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32"
     >
       <div class="flex flex-col justify-between">
-        <div class="space-y-2">
+        <div class="space-y-2 pt-2">
           <h2 class="text-4xl font-bold leadi lg:text-3xl text-blue-500">
             Let's have Chat!🤗
           </h2>
-          <div class="dark:text-gray-400"></div>
+          <div class="pt-6">
+            <div class="flex gap-4">
+              <i class="fa-solid fa-phone text-xl pt-2 rotate-20 text-blue-500"></i>
+              <div class="text-gray-500">
+                <p>+254 792 857 288</p>
+                <p>+254 759 732 432</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 pt-3">
+              <i class="fa-solid fa-envelope text-xl pt-2 rotate-20 text-blue-500"></i>
+              <div class="text-gray-500">
+                <p>paulnyamawi18@gmail.com</p>
+                <p>poltechnology01@gmail.com</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <img src="../assets/call.png" alt="" class="w-72" />
+        <!-- <img src="../assets/call.png" alt="" class="w-72" /> -->
       </div>
 
       <form @submit.prevent="sendMessage" class="space-y-6">

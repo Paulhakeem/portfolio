@@ -67,6 +67,10 @@ body {
   .img {
     justify-content: center;
   }
+  #skills {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
   #box {
     width: 100%;
     padding: 2px;

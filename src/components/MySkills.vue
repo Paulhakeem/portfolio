@@ -2,7 +2,7 @@
 import Projects from "./Projects.vue";
 </script>
 <template>
-  <div class="grid md:grid-cols-2 my-6 mx-6 gap-2 mt-20 sm:grid-cols-2 select-none">
+  <div id="skills" class="flex justify-center my-6 px-6 gap-12 mt-20 select-none">
     <div class="mx-6 ">
       <h3 class="text-xl font-semibold tracking-wider text-gray-300">Checkout -</h3>
       <div class="">

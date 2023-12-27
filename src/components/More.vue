@@ -94,7 +94,7 @@ import MySkills from "./MySkills.vue";
           logic and design to produce appealing, usable websites and
           applications. I provide both design and development services for
           websites or online applications. I frequently use HTML, Tailwindcss,
-          JavaScript, and Vue.js, but I have no trouble learning new frameworks
+          JavaScript, Vue.js and Nuxt.js, but I have no trouble learning new frameworks
           or languages. I feel at ease creating on the front end.
         </p>
         <br />

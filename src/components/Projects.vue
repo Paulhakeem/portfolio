@@ -180,7 +180,7 @@ const sendMessage = async () => {
         <!-- <img src="../assets/call.png" alt="" class="w-72" /> -->
       </div>
 
-      <form @submit.prevent="sendMessage" class="space-y-6">
+      <form action="https://formspree.io/f/xqkrkzdz" @submit.prevent="sendMessage" class="space-y-6">
         <div>
           <label for="name" class="text-sm text-gray-400">Full name</label>
           <input

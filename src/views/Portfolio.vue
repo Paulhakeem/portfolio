@@ -42,7 +42,7 @@ import buttons from "../components/buttons.vue";
           <p
             class="text-md tracking-wide font-light text-gray-400 text-balance"
           >
-            Self tought
+            Self taught
             <span class="italic"
               >Front-end Web Developer and Graphic designer</span
             >

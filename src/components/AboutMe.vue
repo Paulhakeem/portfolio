@@ -31,7 +31,7 @@ import { RouterLink } from "vue-router";
             </div>
             <p class="italic text-md font-sans font-medium line-clamp-3">
               Front-end web developer and <br />
-              grapic designer
+              graphic designer
             </p>
             <div class="mt-4 text-center justify-center">
               <RouterLink to="/portfolio">

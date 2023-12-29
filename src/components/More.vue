@@ -57,7 +57,7 @@ import MySkills from "./MySkills.vue";
         </div>
       </div>
 
-        <div class="relative px-4">
+        <div class="relative mx-4">
         <div
           class="absolute -inset-0.5 rounded-md bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 opacity-75 blur"
         ></div>

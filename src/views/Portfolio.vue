@@ -6,7 +6,7 @@ import buttons from "../components/buttons.vue";
 <template>
   <div>
     <buttons />
-    <div class="grid md:grid-cols-2 my-6 gap-2 text-center mt-20">
+    <div class="grid md:grid-cols-2 my-6 gap-20 text-center mt-20">
       <div
         id="user"
         v-motion
@@ -14,13 +14,10 @@ import buttons from "../components/buttons.vue";
         :enter="{ opacity: 1, y: 0, scale: 1 }"
         :variants="{ custom: { scale: 2 } }"
         :delay="200"
-        class="border-b-8 border-blue-500 ml-3 mr-3 bg-green-200 rounded-tr-full rounded-tl-full rounded-bl-xl"
+        class="relative px-3 bg-gradient-to-tr from-blue-600 via-green-500 to-blue-600 rounded-full h-auto w-full blur-3xl"
       >
-        <div
-          class="bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 h-10 w-10 rounded-full justify-center"
-        ></div>
-        <img src="../assets/bg.png" alt="profile-picture" class="top-0 right-10" />
       </div>
+      <div class="absolute  bg-gradient-to-tr from-green-600 via-blue-500 to-green-600 h-96 w-96 blur-3xl"></div>
 
       <div
        id="user-grid"
@@ -29,7 +26,7 @@ import buttons from "../components/buttons.vue";
         :enter="{ opacity: 1, x: 0, scale: 1 }"
         :variants="{ custom: { scale: 6 } }"
         :delay="200"
-        class="pt-24 px-20"
+        class="pt-24 px-10"
       >
         <div class="flex">
           <h3

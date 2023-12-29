@@ -56,15 +56,15 @@ import { Vue3Lottie } from "vue3-lottie";
           </p>
         </div>
 
-        <div id="user-button" class="flex pt-12 gap-16 px-4">
+        <div id="user-button" class="flex pt-12 gap-16 pl-3">
           <button
-            class="bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 p-4 rounded-full text-white uppercase tracking-wider w-48 hover:shadow-lg hover:animate-bounce"
+            class="bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 p-3 rounded-full text-white uppercase tracking-wider w-48 hover:shadow-lg hover:animate-bounce"
           >
             read my cv
           </button>
 
           <button
-            class="p-4 rounded-full border border-1 border-green-500 text-blue-500 uppercase tracking-wider w-48 hover:animate-bounce"
+            class="p-3 rounded-full border border-1 border-green-500 text-blue-500 uppercase tracking-wider w-48 hover:animate-bounce"
           >
             download my cv
           </button>

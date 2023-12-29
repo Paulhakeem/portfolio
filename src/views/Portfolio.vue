@@ -7,7 +7,7 @@ import { Vue3Lottie } from "vue3-lottie";
 <template>
   <div>
     <buttons />
-    <div class="grid md:grid-cols-2 my-6 justify-center mt-20">
+    <div class="grid md:grid-cols-2 my-6 justify-center">
       <div
         id="user"
         v-motion
@@ -58,7 +58,7 @@ import { Vue3Lottie } from "vue3-lottie";
           </p>
         </div>
 
-        <div class="flex pt-12 gap-18">
+        <div id="user-button" class="flex pt-12 gap-16 px-4">
           <button
             class="bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 p-4 rounded-full text-white uppercase tracking-wider w-48 hover:shadow-lg hover:animate-bounce"
           >

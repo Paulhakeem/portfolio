@@ -90,7 +90,7 @@ import MySkills from "./MySkills.vue";
       </p>
       <div id="more" class="pt-8 px-2">
         <p class="text-left text-gray-400">
-          I am a front-end web developer based out of Kenya. I enjoy combining
+          I am a front-end web developer who enjoy combining
           logic and design to produce appealing, usable websites and
           applications. I provide both design and development services for
           websites or online applications. I frequently use HTML, Tailwindcss,

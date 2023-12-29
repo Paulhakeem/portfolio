@@ -52,11 +52,10 @@ body {
     padding-right: 3em;
   }
   #user-button {
-    width: 80%;
+    width: 50%;
     font-size: 13px;
     text-align: center;
-    gap: 20px;
-    padding-left: 12px;
+    padding-left: 3em;
   }
   .home h3 {
     padding-top: 2em;

@@ -45,16 +45,14 @@ import { Vue3Lottie } from "vue3-lottie";
             class="text-md tracking-wide font-light text-gray-400 text-balance"
           >
             Self taught
-            <span class="italic"
+            <span class=""
               >Front-end Web Developer and Graphic designer</span
             >
             who enjoy building everything from small business websites to rich
             interactive websites. I create custom website to bring your idea
             into life and help businesses do better online. <br />
-            <i
-              >If you are a business seeking a web presence or an employer
-              looking to hire you can get in touch with me.</i
-            >
+            If you are a business seeking a web presence or an employer looking
+            to hire you can get in touch with me.
           </p>
         </div>
 
@@ -66,7 +64,7 @@ import { Vue3Lottie } from "vue3-lottie";
           </button>
 
           <button
-            class="shadow-lg p-4 rounded-full text-blue-500 uppercase tracking-wider w-48 hover:animate-bounce"
+            class="p-4 rounded-full border border-1 border-green-500 text-blue-500 uppercase tracking-wider w-48 hover:animate-bounce"
           >
             download my cv
           </button>

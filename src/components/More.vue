@@ -76,7 +76,7 @@ import MySkills from "./MySkills.vue";
     </div>
   </div>
 
-  <div class="grid md:grid-cols-2 my-6 gap-2 text-center mt-28">
+  <div id="large" class="grid md:grid-cols-2 my-6 gap-2 text-center mt-28">
     <div class="ml-6 rounded-full justify-center">
       <img src="../assets/cat.png" alt="" class="profile w-full" />
     </div>

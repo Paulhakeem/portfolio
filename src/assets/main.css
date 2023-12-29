@@ -10,6 +10,11 @@ body {
   background: #121a27;
   color: gray;
 }
+@media (max-width: 640px) { 
+  
+}
+
+
 @media screen and (max-width: 500px) {
   .profile {
     width: 96%;
@@ -48,7 +53,7 @@ body {
   }
   #user-button {
     width: 80%;
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
     gap: 20px;
     margin-left: 4em;
@@ -107,6 +112,30 @@ body {
     padding-right: 1.4em;
   }
   #contact {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 1024px) { 
+  #skills {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #large {
+    width: 100%;
+    display: block;
+  }
+  #user-button {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    gap: 20px;
+  }
+  #user-grid {
+    padding-top: 3em;
+   
+  }
+  #user-grid h3 {
     font-size: 2em;
   }
 }

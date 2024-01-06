@@ -5,8 +5,9 @@ import buttons from "../components/buttons.vue";
 import { Vue3Lottie } from "vue3-lottie";
 </script>
 <template>
-  <div>
+  <section>
     <buttons />
+    <div class="mx-auto">
     <div class="grid md:grid-cols-2 my-6 justify-center">
       <div
         id="user"
@@ -15,7 +16,7 @@ import { Vue3Lottie } from "vue3-lottie";
         :enter="{ opacity: 1, y: 0, scale: 1 }"
         :variants="{ custom: { scale: 2 } }"
         :delay="200"
-        class=""
+        class="justify-center justify-self-center mx-auto"
       >
         <Vue3Lottie
           animation-link="https://assets2.lottiefiles.com/packages/lf20_GbabwrUY2k.json"
@@ -31,7 +32,7 @@ import { Vue3Lottie } from "vue3-lottie";
         :enter="{ opacity: 1, x: 0, scale: 1 }"
         :variants="{ custom: { scale: 6 } }"
         :delay="200"
-        class="pt-24"
+        class="pt-24 justify-center justify-self-center mx-auto"
       >
         <div class="px-4">
           <h3
@@ -56,7 +57,7 @@ import { Vue3Lottie } from "vue3-lottie";
           </p>
         </div>
 
-        <div id="user-button" class="flex pt-12 gap-16 pl-3">
+        <div id="user-button" class="flex pt-12 gap-16 pl-3 m-auto">
           <button
             class="bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 p-3 rounded-full text-white uppercase tracking-wider w-48 hover:shadow-lg hover:animate-bounce"
           >
@@ -74,4 +75,5 @@ import { Vue3Lottie } from "vue3-lottie";
 
     <More />
   </div>
+  </section>
 </template>

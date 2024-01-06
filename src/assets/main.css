@@ -32,10 +32,10 @@ body {
     padding-left: 0px;
     padding-right: 0px;
   }
-  #user img {
+  /* #user img {
     justify-content: center;
     padding-right: 3em;
-  }
+  } */
   #user-grid {
     padding-top: 2em;
     padding-left: 14px;
@@ -52,11 +52,13 @@ body {
     padding-right: 3em;
   }
   #user-button {
-    width: 50%;
     font-size: 13px;
-    text-align: center;
-    padding-left: 3em;
+    max-width: 24rem;
+   text-align: center;
+   padding-left: 2px;
+   padding-right: 2px;
   }
+ 
   .home h3 {
     padding-top: 2em;
     font-size: 27px;

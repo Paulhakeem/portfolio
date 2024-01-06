@@ -8,7 +8,7 @@ import { Vue3Lottie } from "vue3-lottie";
   <section>
     <buttons />
     <div class="mx-auto">
-    <div class="grid md:grid-cols-2 my-6 justify-center">
+    <div id="portfolio" class="flex my-6 justify-center">
       <div
         id="user"
         v-motion

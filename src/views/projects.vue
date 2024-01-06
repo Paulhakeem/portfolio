@@ -2,7 +2,7 @@
   <div>
     <buttons />
     <div
-      class="project flex flex-wrap px-6 space-x-6 lg:flex p-5 scroll-smooth justify-center"
+      class="project flex flex-wrap px-6 space-x-6 lg:flex p-5 scroll-smooth justify-center m-auto"
     >
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
@@ -190,6 +190,43 @@
           </div>
           <a
             href="https://movie-nu-nine.vercel.app/"
+            target="_blank"
+          >
+            <button
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+            >
+              Open
+            </button>
+          </a>
+        </div>
+      </div>
+
+
+         <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
+        <div class="text-center">
+          <img src="../assets/Capture.png" alt="" class="w-96" />
+        </div>
+        <div class="pt-3">
+          <h1 class="text-blue-500 font-semibold">Dolph</h1>
+          <p class="text-pretty text-gray-400 text-md">
+            Is car rental landing page
+          </p>
+          <div class="img flex gap-4 my-3.5">
+            <img src="../assets/nuxt.png" alt="vue logo" class="w-8" />
+            <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
+            <img
+              src="../assets/tailwindcss.svg"
+              alt="tailwindcss logo"
+              class="w-8"
+            />
+             <img
+              src="../assets/firebase.svg"
+              alt="firebase logo"
+              class="w-8"
+            />
+          </div>
+          <a
+            href="https://dolph-seven.vercel.app/"
             target="_blank"
           >
             <button

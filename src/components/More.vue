@@ -5,7 +5,7 @@ import MySkills from "./MySkills.vue";
   <div
     class="text-center pt-28 flex space-y-8 space-x-4 flex-wrap justify-center items-center"
   >
-    <div class="space-y-4 text-left">
+    <div id="moreheading" class="space-y-4 text-left">
       <h2 class="text-3xl font-semibold tracking-wider mr-4 text-gray-400">
         My Awesome <br />
         <span class="text-green-500">Services</span>

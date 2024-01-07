@@ -8,7 +8,7 @@ body {
 }
 .dark {
   background: #121a27;
-  color: rgb(15, 13, 13);
+  color: #36454F;
 }
 @media (max-width: 640px) { 
   

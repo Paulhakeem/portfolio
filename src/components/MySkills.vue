@@ -2,10 +2,15 @@
 import Projects from "./Projects.vue";
 </script>
 <template>
-  <div id="skills" class="flex justify-center my-6 px-6 gap-12 mt-20 select-none">
-    <div class="mx-6 ">
-      <h3 class="text-xl font-semibold tracking-wider text-gray-300">Checkout -</h3>
-      <div class="">
+  <div
+    id="skills"
+    class="flex justify-center my-6 px-6 gap-12 mt-20 select-none"
+  >
+    <div class="mx-6">
+      <div id="moreheading">
+        <h3 class="text-xl font-semibold tracking-wider text-gray-300">
+          Checkout -
+        </h3>
         <p class="text-3xl font-semibold tracking-wider text-green-500">
           My skills
         </p>
@@ -47,7 +52,7 @@ import Projects from "./Projects.vue";
           <img class="w-14 mx-2" src="../assets/vue.svg" />
           <p class="text-gray-400">Vue.js</p>
         </div>
-         <div class="text-center justify-center">
+        <div class="text-center justify-center">
           <img class="w-14 mx-2" src="../assets/nuxt.png" />
           <p class="text-gray-400">Nuxt.js</p>
         </div>
@@ -55,12 +60,11 @@ import Projects from "./Projects.vue";
           <img class="w-14 mx-2" src="../assets/firebase.svg" />
           <p class="text-gray-400">Firebase</p>
         </div>
-        
       </div>
     </div>
 
     <div class="float-right">
-      <img src="../assets/icon.png"  />
+      <img src="../assets/icon.png" />
     </div>
   </div>
 

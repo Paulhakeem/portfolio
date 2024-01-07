@@ -3,10 +3,10 @@ import MySkills from "./MySkills.vue";
 </script>
 <template>
   <div
-    class="text-center pt-28 flex space-y-8 space-x-4 flex-wrap justify-center items-center"
+    class="text-center pt-28 flex space-y-8 space-x-4 flex-wrap justify-center items-center m-auto"
   >
     <div id="moreheading" class="space-y-4 text-left">
-      <h2 class="text-3xl font-semibold tracking-wider mr-4 text-gray-400">
+      <h2 class="text-3xl font-semibold tracking-wider mr-4 text-gray-400 dark:text-gray-700">
         My Awesome <br />
         <span class="text-green-500">Services</span>
       </h2>
@@ -22,7 +22,7 @@ import MySkills from "./MySkills.vue";
       </a>
     </div>
 
-    <div class="flex justify-center flex-wrap gap-6">
+    <div class="flex justify-center flex-wrap gap-6 m-auto">
       
        <div class="relative mx-4">
         <div
@@ -65,7 +65,7 @@ import MySkills from "./MySkills.vue";
           class="relative h-64 w-64 items-center justify-center rounded-lg bg-slate-900 text-slate-300"
         >
         <i class="fa-solid fa-bullhorn fa-4x text-blue-500 pt-2 mb-4"></i>
-        <p class="text-lg font-sans font-semibold text-gray-400">Digital Marketing</p>
+        <p class="text-lg font-sans font-semibold text-gray-400">Social Media Marketing</p>
         <p class="text-sm pt-2 ml-2 mr-2 text-gray-400">
           I can manage social media marketing and help you put strategic social
           media content and/or social ads in front of the online users. This

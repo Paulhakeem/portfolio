@@ -34,7 +34,7 @@ import { Vue3Lottie } from "vue3-lottie";
         :delay="200"
         class="pt-24 justify-center justify-self-center mx-auto"
       >
-        <div class="px-4">
+        <div class="mx-4">
           <h3
             class="text-4xl tracking-wide font-sans font-bold uppercase bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 text-transparent bg-clip-text"
           >
@@ -57,8 +57,8 @@ import { Vue3Lottie } from "vue3-lottie";
           </p>
         </div>
 
-        <div id="user-button" class="flex pt-12 gap-16 pl-3 m-auto">
-          <button
+        <div id="user-button" class="flex pt-12 gap-16 px-4 m-auto">
+          <button 
             class="bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 p-3 rounded-full text-white uppercase tracking-wider w-48 hover:shadow-lg hover:animate-bounce"
           >
             read my cv

@@ -205,7 +205,7 @@
 
           <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
-          <img src="../assets/dragger.JPG" alt="" class="w-96" />
+          <img src="../assets/dragger.png" alt="" class="w-96" />
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">Drag and Drop</h1>

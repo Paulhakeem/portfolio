@@ -227,7 +227,7 @@
             />
           </div>
           <a
-            href="https://dropper-eta.vercel.app/"
+            href="https://dropper-eta.vercel.app"
             target="_blank"
           >
             <button

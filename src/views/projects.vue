@@ -21,16 +21,9 @@
               alt="tailwindcss logo"
               class="w-8"
             />
-             <img
-              src="../assets/firebase.svg"
-              alt="firebase logo"
-              class="w-8"
-            />
+            <img src="../assets/firebase.svg" alt="firebase logo" class="w-8" />
           </div>
-          <a
-            href="https://medusa-sooty-nine.vercel.app/"
-            target="_blank"
-          >
+          <a href="https://medusa-sooty-nine.vercel.app/" target="_blank">
             <button
               class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
@@ -57,16 +50,9 @@
               alt="tailwindcss logo"
               class="w-8"
             />
-            <img
-              src="../assets/firebase.svg"
-              alt="firebase logo"
-              class="w-8"
-            />
+            <img src="../assets/firebase.svg" alt="firebase logo" class="w-8" />
           </div>
-          <a
-            href="https://realtime-todo-inky.vercel.app/"
-            target="_blank"
-          >
+          <a href="https://realtime-todo-inky.vercel.app/" target="_blank">
             <button
               class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
@@ -82,9 +68,7 @@
         </div>
         <div class="pt-3">
           <h1 class="text-blue-500 font-semibold">Website</h1>
-          <p class="text-pretty text-gray-400 text-md">
-            Simple website
-          </p>
+          <p class="text-pretty text-gray-400 text-md">Simple website</p>
           <div class="img flex gap-4 my-8">
             <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
             <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
@@ -94,10 +78,7 @@
               class="w-8"
             />
           </div>
-          <a
-            href="https://code-with-paul.vercel.app/"
-            target="_blank"
-          >
+          <a href="https://code-with-paul.vercel.app/" target="_blank">
             <button
               class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
@@ -125,10 +106,7 @@
               class="w-8"
             />
           </div>
-          <a
-            href="https://pre-movies.vercel.app/"
-            target="_blank"
-          >
+          <a href="https://pre-movies.vercel.app/" target="_blank">
             <button
               class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
@@ -157,10 +135,7 @@
               class="w-8"
             />
           </div>
-          <a
-            href="https://local-weather-app-red.vercel.app/"
-            target="_blank"
-          >
+          <a href="https://local-weather-app-red.vercel.app/" target="_blank">
             <button
               class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
@@ -188,10 +163,7 @@
               class="w-8"
             />
           </div>
-          <a
-            href="https://movie-nu-nine.vercel.app/"
-            target="_blank"
-          >
+          <a href="https://movie-nu-nine.vercel.app/" target="_blank">
             <button
               class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
@@ -201,8 +173,7 @@
         </div>
       </div>
 
-
-         <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
+      <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
           <img src="../assets/Capture.png" alt="" class="w-96" />
         </div>
@@ -219,6 +190,36 @@
               alt="tailwindcss logo"
               class="w-8"
             />
+            <img src="../assets/firebase.svg" alt="firebase logo" class="w-8" />
+          </div>
+          <a href="https://dolph-seven.vercel.app/" target="_blank">
+            <button
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+            >
+              Open
+            </button>
+          </a>
+        </div>
+      </div>
+
+
+          <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
+        <div class="text-center">
+          <img src="../assets/dragger.JPG" alt="" class="w-96" />
+        </div>
+        <div class="pt-3">
+          <h1 class="text-blue-500 font-semibold">Drag and Drop</h1>
+          <p class="text-pretty text-gray-400 text-md">
+            Simple drag and drop project
+          </p>
+          <div class="img flex gap-4 my-3.5">
+            <img src="../assets/nuxt.png" alt="vue logo" class="w-8" />
+            <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
+            <img
+              src="../assets/tailwindcss.svg"
+              alt="tailwindcss logo"
+              class="w-8"
+            />
              <img
               src="../assets/firebase.svg"
               alt="firebase logo"
@@ -226,7 +227,7 @@
             />
           </div>
           <a
-            href="https://dolph-seven.vercel.app/"
+            href="https://dropper-eta.vercel.app/"
             target="_blank"
           >
             <button

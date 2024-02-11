@@ -22,7 +22,7 @@ import MySkills from "./MySkills.vue";
       </a>
     </div>
 
-    <div class="flex justify-center flex-wrap gap-6 m-auto">
+    <div class="flex justify-center flex-wrap gap-6 m-auto text-center">
       
        <div class="relative mx-4">
         <div

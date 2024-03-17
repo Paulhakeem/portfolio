@@ -4,6 +4,7 @@ import { useVuelidate } from "@vuelidate/core";
 import { required, email, minLength } from "@vuelidate/validators";
 import { useToast } from "vue-toastification";
 import { RouterLink } from "vue-router";
+import emailjs from "@emailjs/browser";
 
 const toast = useToast();
 
@@ -26,6 +27,25 @@ const rules = computed(() => {
 const v$ = useVuelidate(rules, senderDetails);
 
 const sendMessage = async () => {
+  emailjs
+    .sendForm(
+      "service_e7tr25a",
+      "template_jgfh8ep",
+      senderDetails.username,
+      senderDetails.email,
+      senderDetails.message,
+      {
+        publicKey: "yz6D6HZgDaZq2vG80",
+      }
+    )
+    .then(
+      () => {
+        console.log("SUCCESS!");
+      },
+      (error) => {
+        console.log("FAILED...", error.text);
+      }
+    );
   const result = await v$.value.$validate();
   if (result) {
     return toast.success("message sent!", {
@@ -156,12 +176,17 @@ const sendMessage = async () => {
     >
       <div class="flex flex-col justify-between">
         <div class="space-y-2 pt-2">
-          <h2 id="contact" class="text-4xl font-bold leadi lg:text-3xl text-blue-500">
+          <h2
+            id="contact"
+            class="text-4xl font-bold leadi lg:text-3xl text-blue-500"
+          >
             Let's have Chat!🤗
           </h2>
           <div class="pt-6">
             <div class="flex gap-4">
-              <i class="fa-solid fa-phone text-xl pt-2 rotate-20 text-blue-500"></i>
+              <i
+                class="fa-solid fa-phone text-xl pt-2 rotate-20 text-blue-500"
+              ></i>
               <div class="text-gray-500">
                 <p>+254 792 857 288</p>
                 <p>+254 759 732 432</p>
@@ -169,7 +194,9 @@ const sendMessage = async () => {
             </div>
 
             <div class="flex gap-4 pt-3">
-              <i class="fa-solid fa-envelope text-xl pt-2 rotate-20 text-blue-500"></i>
+              <i
+                class="fa-solid fa-envelope text-xl pt-2 rotate-20 text-blue-500"
+              ></i>
               <div class="text-gray-500">
                 <p>paulnyamawi18@gmail.com</p>
                 <p>poltechnology01@gmail.com</p>
@@ -180,7 +207,11 @@ const sendMessage = async () => {
         <!-- <img src="../assets/call.png" alt="" class="w-72" /> -->
       </div>
 
-      <form action="https://formspree.io/f/xqkrkzdz" @submit.prevent="sendMessage" class="space-y-6">
+      <form
+        action="https://formspree.io/f/xqkrkzdz"
+        @submit.prevent="sendMessage"
+        class="space-y-6"
+      >
         <div>
           <label for="name" class="text-sm text-gray-400">Full name</label>
           <input

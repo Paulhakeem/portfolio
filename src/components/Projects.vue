@@ -27,20 +27,20 @@ const rules = computed(() => {
 const v$ = useVuelidate(rules, senderDetails);
 
 const sendMessage = async () => {
-  emailjs
+ emailjs
     .sendForm(
       "service_e7tr25a",
-      "template_jgfh8ep",
+      "template_ypiewvi",
       senderDetails.username,
       senderDetails.email,
       senderDetails.message,
       {
-        publicKey: "yz6D6HZgDaZq2vG80",
+        publicKey: "cp_7SCaYtr7DygnDB",
       }
     )
     .then(
       () => {
-        console.log("SUCCESS!");
+        console.log("SEND");
       },
       (error) => {
         console.log("FAILED...", error.text);

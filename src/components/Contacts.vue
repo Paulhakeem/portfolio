@@ -1,6 +1,6 @@
 <template>
-    <div>
-<div
+  <div>
+    <div
       class="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg shadow-lg mb-6 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32"
     >
       <div class="flex flex-col justify-between">
@@ -107,11 +107,10 @@ import { ref, computed } from "vue";
 import { useVuelidate } from "@vuelidate/core";
 import { required, email, minLength } from "@vuelidate/validators";
 import { useToast } from "vue-toastification";
-import {sendEmail} from "./../store/email"
-
+import { useEmailStore } from "./../store/email";
 
 const toast = useToast();
-const email = sendEmail()
+const emailSend = useEmailStore();
 
 // or with options
 
@@ -134,6 +133,11 @@ const v$ = useVuelidate(rules, senderDetails);
 const sendMessage = async () => {
   const result = await v$.value.$validate();
   if (result) {
+    await emailSend.sendEmail({
+      email: senderDetails.email,
+      subject: senderDetails.message,
+      text: senderDetails.message,
+    });
     return toast.success("message sent!", {
       timeout: 2000,
     });
@@ -144,5 +148,3 @@ const sendMessage = async () => {
   }
 };
 </script>
-
-

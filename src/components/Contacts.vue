@@ -107,10 +107,8 @@ import { ref, computed } from "vue";
 import { useVuelidate } from "@vuelidate/core";
 import { required, email, minLength } from "@vuelidate/validators";
 import { useToast } from "vue-toastification";
-import { useEmailStore } from "./../store/email";
-
+import axios from "axios";
 const toast = useToast();
-const emailSend = useEmailStore();
 
 // or with options
 
@@ -132,16 +130,26 @@ const v$ = useVuelidate(rules, senderDetails);
 
 const sendMessage = async () => {
   const result = await v$.value.$validate();
-  if (result) {
-    await emailSend.sendEmail({
-      email: senderDetails.email,
-      subject: senderDetails.message,
-      text: senderDetails.message,
-    });
-    return toast.success("message sent!", {
-      timeout: 2000,
-    });
-  } else {
+  const sendEmail = {
+    email: senderDetails.email,
+    subject: "Hello Paul",
+    text: senderDetails.text
+  } 
+  try {
+    if (result) {
+      const response = await axios.post('./store/email', sendEmail);
+      if (response.data) {
+        console.log("Email sent successfully!");
+        return toast.success("message sent!", {
+          timeout: 2000,
+        });
+      } else {
+        // return toast.error("message NOT sent!", {
+        //   timeout: 2000,
+        // });
+      }
+    }
+  } catch (error) {
     return toast.error("message NOT sent!", {
       timeout: 2000,
     });

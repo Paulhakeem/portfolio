@@ -1,11 +1,7 @@
-import { defineStore } from "pinia";
-import { ref } from "vue";
-import nodemailer from "nodemailer";
 
-export const useEmailStore = defineStore("email", () => {
-  const senderEmail = ref("");
+const nodemailer = require("nodemailer")
 
-  const sendEmail = async (Option) => {
+ const sendEmail = async (Option) => {
     const transporter = nodemailer.createTransport({
       host: "sandbox.smtp.mailtrap.io",
       port: 25,
@@ -31,8 +27,4 @@ export const useEmailStore = defineStore("email", () => {
     });
   };
 
-  return {
-    sendEmail,
-    senderEmail,
-  };
-});
+module.exports = sendEmail

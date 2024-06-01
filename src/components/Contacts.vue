@@ -44,7 +44,7 @@
         <div>
           <label for="name" class="text-sm text-gray-400">Full name</label>
           <input
-            v-model="senderDetails.username"
+            v-model="senderDetails.name"
             id="name"
             type="text"
             placeholder=""
@@ -52,7 +52,7 @@
           />
           <div
             class="input-errors"
-            v-for="error of v$.username.$errors"
+            v-for="error of v$.name.$errors"
             :key="error.$uid"
           >
             <p class="error-msg text-red-500 italic">{{ error.$message }}</p>
@@ -108,19 +108,24 @@ import { useVuelidate } from "@vuelidate/core";
 import { required, email, minLength } from "@vuelidate/validators";
 import { useToast } from "vue-toastification";
 import axios from "axios";
-const toast = useToast();
+import emailjs from "@emailjs/browser";
+const { VITE_SERVICE_ID, VITE_EMPLATE_ID, VITE_PUBLIC_KEY } = import.meta.env;
 
-// or with options
+const toast = useToast();
+const serviceID = ref(VITE_SERVICE_ID);
+const templateID = ref(VITE_EMPLATE_ID);
+const publicID = ref(VITE_PUBLIC_KEY);
 
 const senderDetails = ref({
-  username: "",
-  email: "",
-  message: "",
+  name: "paulo",
+  email: "paul10@gmail.com",
+  message: "hello",
 });
+console.log(senderDetails._rawValue.name);
 
 const rules = computed(() => {
   return {
-    username: { required, minLength: minLength(5) },
+    name: { required, minLength: minLength(5) },
     email: { required, email },
     message: { required },
   };
@@ -128,29 +133,25 @@ const rules = computed(() => {
 
 const v$ = useVuelidate(rules, senderDetails);
 
-const sendMessage = async () => {
+const sendMessage = async (e) => {
   const result = await v$.value.$validate();
-  const sendEmail = {
-    email: senderDetails.email,
-    subject: "Hello Paul",
-    text: senderDetails.text
-  } 
-  try {
-    if (result) {
-      const response = await axios.post('./store/email', sendEmail);
-      if (response.data) {
-        console.log("Email sent successfully!");
-        return toast.success("message sent!", {
-          timeout: 2000,
-        });
-      } else {
-        // return toast.error("message NOT sent!", {
-        //   timeout: 2000,
-        // });
-      }
+  const sendEmail = emailjs.sendForm(
+    serviceID.value,
+    templateID.value,
+    e.target,
+    publicID.value,
+    {
+      name: senderDetails._rawValue.name,
+      email: senderDetails._rawValue.email,
+      message: senderDetails._rawValue.message,
     }
-  } catch (error) {
-    return toast.error("message NOT sent!", {
+  );
+  if (result || sendEmail) {
+    return toast.error("Email sent!", {
+      timeout: 2000,
+    });
+  } else {
+    return toast.error("Email Not Sent!", {
       timeout: 2000,
     });
   }

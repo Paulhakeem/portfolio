@@ -1,22 +1,33 @@
-import { defineStore } from 'pinia'
-import { Resend } from 'resend';
+import { defineStore } from "pinia";
+import { ref } from "vue";
 
-export const useEmailStore = defineStore('email', () => {
-    const resend = new Resend(process.env.RESEND_API_KEY)
-   
-  const sendEmails = async () => {
-    try {
-        const data = await resend.emails.send({
-          from: 'Acme <onboarding@resend.dev>',
-          to: ['delivered@resend.dev'],
-          subject: 'Hello world',
-          html: '<strong>It works!</strong>',
-        });
-    
-        return data;
-      } catch (error) {
-        return { error };
+export const useEmailStore = defineStore("email", () => {
+  const nodemailer  = require("nodemailer")
+  const senderEmail = ref('')
+
+  const sendEmail = async(Option) => {
+    const transporter = nodemailer.createTransport({
+      host: 'sandbox.smtp.mailtrap.io',
+      port: 25,
+      auth: {
+        user: '3802eafdc897f1',
+        pass: 'bcbfadd76ddcc7'
       }
+    })
+
+    const emailOption = {
+      from: senderEmail.value,
+      to: Option.email,
+      subject: Option.subject,
+      text: Option.message
+    }
+
+    await transporter.sendMail(emailOption)
   }
-    return {sendEmails }
-  })
+
+  return{
+    sendEmail,
+    senderEmail,
+    senderMessage
+  }
+});

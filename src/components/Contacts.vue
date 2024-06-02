@@ -37,6 +37,7 @@
       </div>
 
       <form
+        ref="form"
         action="https://formspree.io/f/xqkrkzdz"
         @submit.prevent="sendMessage"
         class="space-y-6"
@@ -44,8 +45,8 @@
         <div>
           <label for="name" class="text-sm text-gray-400">Full name</label>
           <input
-            v-model="senderDetails.name"
-            id="name"
+            v-model="formRef.name"
+            name="user_name"
             type="text"
             placeholder=""
             class="w-full p-3 rounded bg-gray-200 outline-none hover:outline-1 hover:outline-blue-500 text-gray-800"
@@ -61,8 +62,8 @@
         <div>
           <label for="email" class="text-sm text-gray-400">Email</label>
           <input
-            v-model="senderDetails.email"
-            id="email"
+            v-model="formRef.email"
+            name="user_email"
             type="email"
             class="w-full p-3 rounded bg-gray-200 outline-none hover:outline-1 hover:outline-blue-500 text-gray-800"
           />
@@ -77,8 +78,8 @@
         <div>
           <label for="message" class="text-sm text-gray-400">Message</label>
           <textarea
-            v-model="senderDetails.message"
-            id="message"
+            v-model="formRef.message"
+            name="message"
             rows="3"
             placeholder="NOT WORKING YET!! AM STILL WORKING ON IT"
             class="w-full p-3 rounded bg-gray-200 outline-none hover:outline-1 hover:outline-blue-500 text-gray-800"
@@ -116,12 +117,12 @@ const serviceID = ref(VITE_SERVICE_ID);
 const templateID = ref(VITE_EMPLATE_ID);
 const publicID = ref(VITE_PUBLIC_KEY);
 
-const senderDetails = ref({
-  name: "paulo",
-  email: "paul10@gmail.com",
-  message: "hello",
+
+const formRef = ref({
+  name: "",
+  email: "",
+  message: "",
 });
-console.log(senderDetails._rawValue.name);
 
 const rules = computed(() => {
   return {
@@ -131,23 +132,18 @@ const rules = computed(() => {
   };
 });
 
-const v$ = useVuelidate(rules, senderDetails);
+const v$ = useVuelidate(rules, formRef);
 
 const sendMessage = async (e) => {
   const result = await v$.value.$validate();
-  const sendEmail = emailjs.sendForm(
-    serviceID.value,
-    templateID.value,
-    e.target,
-    publicID.value,
-    {
-      name: senderDetails._rawValue.name,
-      email: senderDetails._rawValue.email,
-      message: senderDetails._rawValue.message,
-    }
-  );
-  if (result || sendEmail) {
-    return toast.error("Email sent!", {
+  if (result) {
+    emailjs.sendForm(serviceID.value, templateID.value ,e.target, publicID.value,{
+     name: formRef.name,
+     email: formRef.email,
+     message: formRef.message
+    });
+
+    return toast.success("Email sent!", {
       timeout: 2000,
     });
   } else {

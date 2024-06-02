@@ -141,7 +141,6 @@ const sendMessage = async (e) => {
      email: formRef.email,
      message: formRef.message
     });
-
     return toast.success("Email sent!", {
       timeout: 2000,
     });

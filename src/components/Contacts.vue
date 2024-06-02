@@ -81,7 +81,6 @@
             v-model="formRef.message"
             name="message"
             rows="3"
-            placeholder="NOT WORKING YET!! AM STILL WORKING ON IT"
             class="w-full p-3 rounded bg-gray-200 outline-none hover:outline-1 hover:outline-blue-500 text-gray-800"
           ></textarea>
           <div

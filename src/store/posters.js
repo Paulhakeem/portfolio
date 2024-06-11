@@ -23,6 +23,7 @@ import farmlogo from "../assets/graphic/farmlogo.jpg"
 import waterlogo from "../assets/graphic/waterlogo.jpg"
 import logo from "../assets/graphic/logo.jpg"
 import logo1 from "../assets/graphic/logo1.jpg"
+import delivery from "../assets/graphic/delivery.jpg"
 
 export const usePosterStore = defineStore('posters', () => {
    
@@ -119,6 +120,10 @@ export const usePosterStore = defineStore('posters', () => {
       {
         id: 3,
         image: logo,
+      },
+      {
+        id: 4,
+        image: delivery,
       },
     ]);
 

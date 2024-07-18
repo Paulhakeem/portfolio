@@ -20,45 +20,48 @@ import Projects from "./Projects.vue";
         evolving, I look forward to learning more.
       </p>
       <div class="flex flex-wrap gap-4 md:gap-4 pt-4">
-        <div class="text-center justify-center">
-          <img class="w-14 mx-2" src="../assets/adobei.svg" />
-          <p class="text-gray-400">Illustrator</p>
-        </div>
-        <div class="text-center justify-center">
-          <img class="w-14 mx-2" src="../assets/adobep.svg" />
-          <p class="text-gray-400">Photoshop</p>
+        <div>
+          <img class="w-10 mx-auto" src="../assets/adobei.svg" />
+          <p class="text-gray-400 text-sm">Illustrator</p>
         </div>
         <div>
-          <img class="w-14 mx-2" src="../assets/word.svg" />
+          <img class="w-10 mx-auto" src="../assets/adobep.svg" />
+          <p class="text-gray-400 text-sm">Photoshop</p>
+        </div>
+        <div>
+          <img class="w-10 mx-auto" src="../assets/word.svg" />
           <p class="text-gray-400 text-sm">WordPress</p>
         </div>
-        <div class="text-center justify-center">
-          <img class="w-14 mx-2" src="../assets/html.svg" />
-          <p class="text-gray-400">HTML</p>
+        <div>
+          <img class="w-10 mx-auto" src="../assets/html.svg" />
+          <p class="text-gray-400 text-sm">HTML</p>
         </div>
-        <div class="text-center justify-center">
-          <img class="w-14 mx-2" src="../assets/css.svg" />
+        <div>
+          <img class="w-10 mx-auto" src="../assets/css.svg" />
           <p class="text-gray-400">CSS</p>
         </div>
-        <div class="text-center justify-center">
-          <img class="w-14 mx-2" src="../assets/tailwindcss.svg" />
-          <p class="text-gray-400">Tailwindcss</p>
+        <div>
+          <img class="w-10 mx-auto" src="../assets/tailwindcss.svg" />
+          <p class="text-gray-400 text-sm">Tailwindcss</p>
         </div>
-        <div class="text-center justify-center">
-          <img class="w-14 mx-2" src="../assets/js.svg" />
-          <p class="text-gray-400">JavaScript</p>
+        <div>
+          <img class="w-10 mx-auto" src="../assets/js.svg" />
+          <p class="text-gray-400 text-sm">JavaScript</p>
         </div>
-        <div class="text-center justify-center">
-          <img class="w-14 mx-2" src="../assets/vue.svg" />
-          <p class="text-gray-400">Vue.js</p>
+        <div>
+          <img class="w-10 mx-auto" src="../assets/vue.svg" />
+          <p class="text-gray-400 text-sm">Vue.js</p>
         </div>
-        <div class="text-center justify-center">
-          <img class="w-14 mx-2" src="../assets/nuxt.png" />
-          <p class="text-gray-400">Nuxt.js</p>
+        <div>
+          <img class="w-10 mx-auto" src="../assets/nuxt.png" />
+          <p class="text-gray-400 text-sm">Nuxt.js</p>
         </div>
-        <div class="text-center justify-center">
-          <img class="w-14 mx-2" src="../assets/firebase.svg" />
-          <p class="text-gray-400">Firebase</p>
+        <div>
+          <img class="w-10 mx-auto" src="../assets/firebase.svg" />
+          <p class="text-gray-400 text-sm">Firebase</p>
+        </div>
+        <div>
+          <img class="w-32 mx-auto" src="../assets/mongo.png" />
         </div>
       </div>
     </div>

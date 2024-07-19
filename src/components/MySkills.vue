@@ -4,7 +4,7 @@ import Projects from "./Projects.vue";
 <template>
   <div
     id="skills"
-    class="flex justify-center my-6 px-6 gap-12 mt-20 select-none"
+    class="flex justify-center my-6 px-6 gap-12 pt-20 select-none"
   >
     <div class="mx-6">
       <div id="moreheading">

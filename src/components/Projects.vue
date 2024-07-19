@@ -15,7 +15,7 @@ import Contacts from "./Contacts.vue"
         </h1>
       </div>
 
-      <div class="project flex flex-wrap justify-center px-6 space-x-6 p-5">
+      <div class="project flex flex-wrap justify-center px-6 space-x-6 p-5 m-auto">
         <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
           <div class="text-center">
             <img src="../assets/AI.png" alt="" class="w-96" />

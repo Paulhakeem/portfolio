@@ -19,7 +19,7 @@ import Projects from "./Projects.vue";
         These are the skills I now possess, but as technology is constantly
         evolving, I look forward to learning more.
       </p>
-      <div class="flex flex-wrap gap-4 md:gap-4 pt-4">
+      <div class="flex flex-wrap gap-4 md:gap-4 pt-4 m-auto">
         <div>
           <img class="w-10 mx-auto" src="../assets/adobei.svg" />
           <p class="text-gray-400 text-sm">Illustrator</p>

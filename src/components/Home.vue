@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#24253b] text-gray-300 select-none m-auto max-w-md justify-center text-center my-6 border-2 border-gradient-to-l from-blue-500 via-ogray-500 to-green-500 rounded-xl w-full"
+    class="bg-[#24253b] text-gray-300 select-none m-auto max-w-md justify-center text-center my-6 rounded-xl w-full"
   >
     <div class="flex justify-center py-4">
       <img
@@ -78,7 +78,7 @@
     </div>
 
     <!-- portfolio -->
-    <div class="mb-4">
+    <div class="pb-10">
       <RouterLink to="/portfolio">
       <button
         class="bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 bg-clip-text text-transparent hover:underline hover:text-blue-500 active:text-blue-500"

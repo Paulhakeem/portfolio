@@ -1,11 +1,11 @@
 <script setup>
-import AboutMe from '../components/AboutMe.vue';
+import Home from '../components/Home.vue';
 
 </script>
 
 <template>
   <main>
-    <AboutMe/>
-    
+    <!-- <AboutMe/> -->
+    <Home/>
   </main>
 </template>

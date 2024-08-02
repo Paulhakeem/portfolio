@@ -2,9 +2,9 @@
   <div>
     <RouterLink to="/portfolio">
       <button
-        class="mx-4 mt-6 bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-22 text-lg uppercase hover:animate-bounce"
+        class="mx-4 mt-6 bg-gradient-to-r from-blue-500 via-purple-600 to-green-500 text-white rounded-md p-1.5 w-22 text-lg hover:animate-bounce"
       >
-        go back
+        Go Back
       </button>
     </RouterLink>
 
@@ -24,7 +24,7 @@
             target="_blank"
           >
             <button id="button"
-              class="mt-6 bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg uppercase hover:animate-bounce"
+              class="mt-6 bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg uppercase hover:animate-bounce"
             >
               Open
             </button>
@@ -45,7 +45,7 @@
             target="_blank"
           >
             <button id="button"
-              class="bg-gradient-to-l from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+              class="bg-gradient-to-l from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
               Open
             </button>

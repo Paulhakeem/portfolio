@@ -93,7 +93,7 @@
         </div>
         <button
           type="submit"
-          class="bg-gradient-to-l from-blue-600 via-green-500 to-blue-600 w-full p-3 text-sm font-bold tracking-wider uppercase rounded text-white cursor-pointer hover:animate-bounce"
+          class="bg-gradient-to-l from-blue-600 via-purple-600 to-blue-600 w-full p-3 text-sm font-bold tracking-wider uppercase rounded text-white cursor-pointer hover:animate-bounce"
         >
           Send Message
         </button>

@@ -35,9 +35,9 @@ import Contacts from "./Contacts.vue"
             </div>
             <a href="https://ai-car-six.vercel.app/" target="_blank">
               <button
-                class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+                class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
               >
-                Open
+                view
               </button>
             </a>
           </div>
@@ -64,9 +64,9 @@ import Contacts from "./Contacts.vue"
             </div>
             <a href="https://budget-app-eight-puce.vercel.app/" target="_blank">
               <button
-                class="bg-gradient-to-l from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+                class="bg-gradient-to-l from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
               >
-                Open
+               view
               </button>
             </a>
           </div>
@@ -92,9 +92,9 @@ import Contacts from "./Contacts.vue"
             </div>
             <a href="https://notebook-azure-delta.vercel.app/" target="_blank">
               <button
-                class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+                class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
               >
-                Open
+                view
               </button>
             </a>
           </div>
@@ -103,7 +103,7 @@ import Contacts from "./Contacts.vue"
       <div class="justify-center text-center">
         <RouterLink to="/projects">
           <button
-            class="bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 size-60 text-lg mt-3 uppercase hover:animate-bounce"
+            class="bg-gradient-to-br from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 size-60 text-lg mt-3 uppercase hover:animate-bounce"
           >
             More
             <i class="fa-solid fa-circle-chevron-right"></i>

@@ -25,7 +25,7 @@
           </div>
           <a href="https://medusa-sooty-nine.vercel.app/" target="_blank">
             <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
               Open
             </button>
@@ -54,7 +54,7 @@
           </div>
           <a href="https://realtime-todo-inky.vercel.app/" target="_blank">
             <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
               Open
             </button>
@@ -80,7 +80,7 @@
           </div>
           <a href="https://code-with-paul.vercel.app/" target="_blank">
             <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
               Open
             </button>
@@ -108,7 +108,7 @@
           </div>
           <a href="https://pre-movies.vercel.app/" target="_blank">
             <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
               Open
             </button>
@@ -137,7 +137,7 @@
           </div>
           <a href="https://local-weather-app-red.vercel.app/" target="_blank">
             <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
               Open
             </button>
@@ -165,7 +165,7 @@
           </div>
           <a href="https://movie-nu-nine.vercel.app/" target="_blank">
             <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
               Open
             </button>
@@ -194,7 +194,7 @@
           </div>
           <a href="https://dolph-seven.vercel.app/" target="_blank">
             <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
               Open
             </button>
@@ -231,7 +231,7 @@
             target="_blank"
           >
             <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-green-500 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
             >
               Open
             </button>

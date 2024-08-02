@@ -2,6 +2,7 @@
 import { RouterLink } from "vue-router";
 import More from "../components/More.vue";
 import buttons from "../components/buttons.vue";
+import HomeButtons from "../components/HomeButtons.vue";
 import { Vue3Lottie } from "vue3-lottie";
 </script>
 <template>
@@ -55,19 +56,15 @@ import { Vue3Lottie } from "vue3-lottie";
             </p>
           </div>
 
-          <div id="user-button" class="flex pt-12 gap-16 px-4 m-auto">
-            <button
-              class="bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 p-3 rounded-full text-white uppercase tracking-wider w-48 hover:shadow-lg hover:animate-bounce"
-            >
-              read my cv
-            </button>
-            <a href="/src/assets/cv/cv.jpg" download="DevPaulCv.jpg">
+          <div id="user-button" class="">
+            <home-buttons/>
+            <!-- <a href="/src/assets/cv/cv.jpg" download="DevPaulCv.jpg">
               <button
                 class="p-3 rounded-full border border-1 border-green-500 text-blue-500 uppercase tracking-wider w-48 hover:animate-bounce"
               >
                 download my cv
               </button>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>

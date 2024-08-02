@@ -9,7 +9,7 @@ import Contacts from "./Contacts.vue"
     >
       <div class="">
         <h1
-          class="text-center font-semibold text-2xl text-blue-500 tracking-wider"
+          class="text-center font-semibold text-2xl text-purple-600 tracking-wider"
         >
           My Projects
         </h1>

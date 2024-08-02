@@ -12,19 +12,19 @@
 
     <div>
       <h5
-        class="bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 bg-clip-text text-transparent first-letter:uppercase font-black text-2xl"
+        class="text-purple-600 first-letter:uppercase font-black text-2xl"
       >
         hello!
       </h5>
       <div
-        class="first-letter:uppercase text-gray-300 bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 p-1.8 w-64 m-auto rounded-sm"
+        class="first-letter:uppercase text-gray-300 bg-gradient-to-br from-blue-500 via-ogray-500 to-purple-600 p-1.8 w-64 m-auto rounded-sm"
       >
         <h1 class="text-2xl">Am Paul Nyamawi</h1>
       </div>
 
       <div class="py-2">
         <p
-          class="bg-gradient-to-br from-blue-500 via-ogray-500 to-green-500 bg-clip-text text-transparent text-lg font-sans font-medium"
+          class="text-md font-sans font-medium"
         >
           Frontend Web Developer
         </p>
@@ -39,7 +39,7 @@
           target="_blank"
         >
           <button
-            class="text-blue-400 text-lg rounded-md w-full p-2 tracking-wider hover:animate-bounce"
+            class="text-purple-600 text-lg rounded-md w-full p-2 tracking-wider hover:animate-bounce"
           >
             <i class="fa-brands fa-linkedin text-2xl"></i>
           </button>
@@ -49,7 +49,7 @@
       <div>
         <a href="https://twitter.com/Hakeemi20" target="_blank">
           <button
-            class="text-blue-400 text-lg rounded-md w-full p-2 tracking-wider hover:animate-bounce"
+            class="text-purple-600 text-lg rounded-md w-full p-2 tracking-wider hover:animate-bounce"
           >
             <i class="fa-brands fa-square-twitter text-2xl"></i>
           </button>
@@ -59,7 +59,7 @@
       <div>
         <a href="https://github.com/Paulhakeem" target="_blank">
           <button
-            class="text-blue-400 text-lg rounded-md w-full p-2 tracking-wider hover:animate-bounce"
+            class="text-purple-600 text-lg rounded-md w-full p-2 tracking-wider hover:animate-bounce"
           >
             <i class="fa-brands fa-github text-2xl"></i>
           </button>
@@ -69,7 +69,7 @@
       <div>
         <a href="https://www.instagram.com/coderpaul18/" target="_blank">
           <button
-            class="text-blue-400 text-lg rounded-md w-full p-2 tracking-wider hover:animate-bounce"
+            class="text-purple-600 text-lg rounded-md w-full p-2 tracking-wider hover:animate-bounce"
           >
             <i class="fa-brands fa-square-instagram text-2xl"></i>
           </button>
@@ -82,7 +82,7 @@
       <RouterLink to="/portfolio">
         <a
           href="#_"
-          class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden text-green-500 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
+          class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden text-purple-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
         >
           <span
             class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-gradient-to-br from-purple-600 to-blue-500 group-hover:h-full"
@@ -91,7 +91,7 @@
             class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12"
           >
             <svg
-              class="w-5 h-5 text-green-400"
+              class="w-5 h-5 text-purple-600"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -109,7 +109,7 @@
             class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200"
           >
             <svg
-              class="w-5 h-5 text-green-400"
+              class="w-5 h-5 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

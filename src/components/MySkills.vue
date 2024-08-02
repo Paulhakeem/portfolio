@@ -11,7 +11,7 @@ import Projects from "./Projects.vue";
         <h3 class="text-xl font-semibold tracking-wider text-gray-300">
           Checkout -
         </h3>
-        <p class="text-3xl font-semibold tracking-wider text-green-500">
+        <p class="text-3xl font-semibold tracking-wider text-purple-600">
           My skills
         </p>
       </div>

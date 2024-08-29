@@ -58,13 +58,6 @@ import { Vue3Lottie } from "vue3-lottie";
 
           <div id="user-button" class="">
             <home-buttons/>
-            <!-- <a href="/src/assets/cv/cv.jpg" download="DevPaulCv.jpg">
-              <button
-                class="p-3 rounded-full border border-1 border-green-500 text-blue-500 uppercase tracking-wider w-48 hover:animate-bounce"
-              >
-                download my cv
-              </button>
-            </a> -->
           </div>
         </div>
       </div>

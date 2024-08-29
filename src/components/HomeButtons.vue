@@ -1,5 +1,5 @@
 <template>
-  <main class="flex pt-12 gap-16 px-4 m-auto">
+  <main class="flex pt-12 gap-16 px-4">
     <div>
       <a
         href="#_"

@@ -5,15 +5,14 @@
 body {
   /* background-color: ; */
   overscroll-behavior: auto;
+  margin: auto;
 }
 .dark {
   background: #121a27;
-  color: #36454F;
+  color: #36454f;
 }
-@media (max-width: 640px) { 
-  
+@media (max-width: 640px) {
 }
-
 
 @media screen and (max-width: 768px) {
   .profile {
@@ -32,7 +31,7 @@ body {
     padding-left: 0px;
     padding-right: 0px;
   }
- 
+
   #user-grid {
     padding-top: 2em;
     padding-left: 14px;
@@ -51,11 +50,9 @@ body {
   #user-button {
     font-size: 12px;
     max-width: 24rem;
-   text-align: center;
+    text-align: center;
     flex-wrap: wrap;
-  
   }
-  
 
   .home h3 {
     padding-top: 2em;
@@ -114,17 +111,17 @@ body {
     font-size: 2em;
   }
 
-  #moreheading{
+  #moreheading {
     text-align: center;
     margin-bottom: 16px;
   }
 }
 
-@media (max-width: 1024px) { 
+@media (max-width: 1024px) {
   #portfolio {
-   flex-wrap: wrap;
+    flex-wrap: wrap;
   }
-  #user-grid  h3{
+  #user-grid h3 {
     text-align: center;
   }
   #user-button {
@@ -147,18 +144,16 @@ body {
   }
   #user-grid {
     padding-top: 3em;
-   
   }
   #user-grid h3 {
     font-size: 2em;
   }
-  #moreheading{
+  #moreheading {
     text-align: center;
     margin-bottom: 16px;
   }
-  #moreheading h2{
+  #moreheading h2 {
     text-align: center;
-   line-height: 2rem;
+    line-height: 2rem;
   }
- 
 }

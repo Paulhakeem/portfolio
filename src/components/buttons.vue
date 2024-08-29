@@ -1,5 +1,5 @@
 <template>
-  <div id="button" class="flex justify-between gap-8 mt-4 px-4">
+  <div id="button" class="flex justify-between gap-8 mt-4 px-2">
     <RouterLink to="/certificates">
       <div class="relative inline-block text-lg group">
         <span

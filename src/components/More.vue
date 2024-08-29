@@ -4,7 +4,7 @@ import MySkills from "./MySkills.vue";
 <template>
   <main>
     <div
-      class="text-center pt-28 flex space-y-8 space-x-4 flex-wrap justify-center items-center m-auto"
+      class="text-center pt-28 flex gap-8 space-x-4 flex-wrap justify-center items-center m-auto"
     >
       <div id="moreheading" class="space-y-4 text-left">
         <h2 class="text-3xl font-semibold tracking-wider mr-4 text-gray-400">
@@ -24,7 +24,7 @@ import MySkills from "./MySkills.vue";
         </a>
       </div>
 
-      <div class="flex justify-center flex-wrap gap-6 m-auto text-center">
+      <div class="flex justify-center flex-wrap gap-4 m-auto text-center">
         <div class="relative mx-4">
           <div
             class="absolute -inset-0.5 rounded-md bg-gradient-to-br from-blue-500 via-ogray-500 to-purple-600 opacity-75 blur"

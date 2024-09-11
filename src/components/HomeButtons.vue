@@ -1,5 +1,5 @@
 <template>
-  <main class="flex pt-12 gap-16 px-4">
+  <main id="buttons" class="flex pt-12 gap-16 px-4">
     <div>
       <a
         href="#_"
@@ -36,4 +36,8 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+@media only screen and (max-width: 600px) {
+
+}
+</style>

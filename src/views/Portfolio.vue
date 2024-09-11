@@ -8,8 +8,8 @@ import { Vue3Lottie } from "vue3-lottie";
 <template>
   <section>
     <buttons />
-    <div class="mx-auto">
-      <div id="portfolio" class="flex my-6 justify-center">
+    <div id="main" class="mx-auto">
+      <div id="profile" class="flex justify-center">
         <div
           id="user"
           v-motion
@@ -57,7 +57,7 @@ import { Vue3Lottie } from "vue3-lottie";
           </div>
 
           <div id="user-button" class="">
-            <home-buttons/>
+            <home-buttons />
           </div>
         </div>
       </div>
@@ -66,3 +66,38 @@ import { Vue3Lottie } from "vue3-lottie";
     </div>
   </section>
 </template>
+
+<style scoped>
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+#main{
+  align-items: center;
+  justify-content: center;
+}
+#profile{
+  flex-wrap: wrap;
+  margin-left: 2em;
+}
+}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #main{
+  align-items: center;
+  justify-content: center;
+}
+#profile{
+  flex-wrap: wrap;
+}
+#user-grid{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #profile {
+    flex-wrap: nowrap;
+  }
+}
+</style>

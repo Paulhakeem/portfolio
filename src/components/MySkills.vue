@@ -73,3 +73,24 @@ import Projects from "./Projects.vue";
 
   <Projects />
 </template>
+
+<style scoped>
+@media only screen and (max-width: 600px) {
+  #skills {
+    flex-wrap: wrap;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   #skills {
+    flex-wrap: wrap;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #skills {
+    flex-wrap: nowrap;
+  }
+}
+</style>

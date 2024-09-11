@@ -1,7 +1,7 @@
 <template>
-  <div id="button" class="flex justify-between gap-8 mt-4 px-2">
+  <div class="flex justify-between gap-8 mt-4 px-2">
     <RouterLink to="/certificates">
-      <div class="relative inline-block text-lg group">
+      <div  class="relative inline-block text-lg group">
         <span
           class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white"
         >
@@ -23,7 +23,7 @@
     <dark-mode />
 
     <RouterLink to="/graphics">
-      <div class="relative inline-block text-lg group">
+      <div  class="relative inline-block text-lg group">
         <span
           class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white"
         >
@@ -40,11 +40,6 @@
           data-rounded="rounded-lg"
         ></span>
       </div>
-      <!-- <button
-        class="bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 p-1.5 rounded-md text-white uppercase tracking-wider w-36 hover:shadow-lg hover:animate-bounce"
-      >
-        my graphics
-      </button> -->
     </RouterLink>
   </div>
 </template>
@@ -52,3 +47,9 @@
 <script setup>
 import darkMode from "../components/darkMode.vue";
 </script>
+
+<style scoped>
+@media only screen and (max-width: 600px) {
+
+}
+</style>

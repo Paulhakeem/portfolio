@@ -6,22 +6,16 @@ import MySkills from "./MySkills.vue";
     <div
       class="text-center pt-28 flex gap-8 space-x-4 flex-wrap justify-center items-center m-auto"
     >
-      <div id="moreheading" class="space-y-4 text-left">
+      <div id="moreheading" class="text-left">
         <h2 class="text-3xl font-semibold tracking-wider mr-4 text-gray-400">
           My Awesome <br />
           <span class="text-purple-600">Services</span>
         </h2>
-        <a href="https://wa.link/38fuqe" target="_blank">
-          <a
-            href="#_"
-            class="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-purple-600 active:shadow-none shadow-lg bg-gradient-to-tr from-purple-600 to-purple-500 border-purple-700 text-white"
-          >
-            <span
-              class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"
-            ></span>
-            <span class="relative"> WhatsApp Me</span>
-          </a>
-        </a>
+        <button
+          class="rounded items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-purple-600 active:shadow-none shadow-lg bg-gradient-to-tr from-purple-600 to-purple-500 border-purple-700 text-white"
+        >
+          WhatsApp Me
+        </button>
       </div>
 
       <div class="flex justify-center flex-wrap gap-4 m-auto text-center">
@@ -86,3 +80,25 @@ import MySkills from "./MySkills.vue";
     <MySkills />
   </main>
 </template>
+
+<style scoped>
+@media only screen and (max-width: 600px) {
+  #moreheading h2 {
+    text-align: center;
+  }
+  #moreheading button {
+    width: 100%;
+    margin-top: 1em;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #moreheading h2 {
+    text-align: center;
+  }
+  #moreheading button {
+    width: 100%;
+    margin-top: 1em;
+  }
+}
+</style>

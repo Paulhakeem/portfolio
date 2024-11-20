@@ -33,34 +33,6 @@
         </div>
       </div>
 
-      <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
-        <div class="text-center">
-          <img src="../assets/todo.png" alt="" class="w-96" />
-        </div>
-        <div class="pt-3">
-          <h1 class="text-blue-500 font-semibold">RealTime Todo</h1>
-          <p class="text-pretty text-gray-400 text-md">
-            Simple Realtime todo app
-          </p>
-          <div class="img flex gap-4 my-8">
-            <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
-            <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
-            <img
-              src="../assets/tailwindcss.svg"
-              alt="tailwindcss logo"
-              class="w-8"
-            />
-            <img src="../assets/firebase.svg" alt="firebase logo" class="w-8" />
-          </div>
-          <a href="https://realtime-todo-inky.vercel.app/" target="_blank">
-            <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
-            >
-              Open
-            </button>
-          </a>
-        </div>
-      </div>
 
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
@@ -88,33 +60,6 @@
         </div>
       </div>
 
-      <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
-        <div class="text-center">
-          <img src="../assets/moviev2.png" alt="" class="w-96" />
-        </div>
-        <div class="pt-3">
-          <h1 class="text-blue-500 font-semibold">Movie App v2</h1>
-          <p class="text-pretty text-gray-400 text-md">
-            Simple movie app build using TMDB API
-          </p>
-          <div class="img flex gap-4 my-3.5">
-            <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
-            <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
-            <img
-              src="../assets/tailwindcss.svg"
-              alt="tailwindcss logo"
-              class="w-8"
-            />
-          </div>
-          <a href="https://pre-movies.vercel.app/" target="_blank">
-            <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
-            >
-              Open
-            </button>
-          </a>
-        </div>
-      </div>
 
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">
@@ -145,33 +90,6 @@
         </div>
       </div>
 
-      <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
-        <div class="text-center">
-          <img src="../assets/moviev1.png" alt="" class="w-96" />
-        </div>
-        <div class="pt-3">
-          <h1 class="text-blue-500 font-semibold">movie app v1</h1>
-          <p class="text-pretty text-gray-400 text-md">
-            Simple movie app build using IMDB API
-          </p>
-          <div class="img flex gap-4 my-3.5">
-            <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
-            <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
-            <img
-              src="../assets/tailwindcss.svg"
-              alt="tailwindcss logo"
-              class="w-8"
-            />
-          </div>
-          <a href="https://movie-nu-nine.vercel.app/" target="_blank">
-            <button
-              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
-            >
-              Open
-            </button>
-          </a>
-        </div>
-      </div>
 
       <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
         <div class="text-center">

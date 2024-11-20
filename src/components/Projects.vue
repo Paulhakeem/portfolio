@@ -15,7 +15,7 @@ import Contacts from "./Contacts.vue"
         </h1>
       </div>
 
-      <div class="project flex flex-wrap justify-center px-6 gap-6 p-5 m-auto">
+      <div id="project" class="flex flex-wrap justify-center px-4 gap-6 p-5 m-auto">
         <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
           <div class="text-center">
             <img src="../assets/AI.png" alt="" class="w-96" />
@@ -72,34 +72,36 @@ import Contacts from "./Contacts.vue"
           </div>
         </div>
 
+  
         <div id="box" class="text-lg p-10 rounded-lg shadow-lg w-96">
-          <div class="text-center">
-            <img src="../assets/notebook.png" alt="" class="w-96" />
+        <div class="text-center">
+          <img src="../assets/moviev2.png" alt="" class="w-96" />
+        </div>
+        <div class="pt-3">
+          <h1 class="text-blue-500 font-semibold">Movie App v2</h1>
+          <p class="text-pretty text-gray-400 text-md">
+            Simple movie app build using TMDB API
+          </p>
+          <div class="img flex gap-4 my-3.5">
+            <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
+            <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
+            <img
+              src="../assets/tailwindcss.svg"
+              alt="tailwindcss logo"
+              class="w-8"
+            />
           </div>
-          <div class="pt-3">
-            <h1 class="text-blue-500 font-semibold">Notebook</h1>
-            <p class="text-pretty text-gray-400 text-md">
-              Simple Realtime Notebook
-            </p>
-            <div class="img flex gap-4 my-8">
-              <img src="../assets/vue.svg" alt="vue logo" class="w-8" />
-              <img
-                src="../assets/firebase.svg"
-                alt="firebase logo"
-                class="w-8"
-              />
-              <img src="../assets/js.svg" alt="javascript logo" class="w-8" />
-            </div>
-            <a href="https://notebook-azure-delta.vercel.app/" target="_blank">
-              <button
-                class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
-              >
-                view
-              </button>
-            </a>
-          </div>
+          <a href="https://pre-movies.vercel.app/" target="_blank">
+            <button
+              class="bg-gradient-to-r from-blue-500 via-ogray-500 to-purple-600 text-white rounded-md p-2 w-80 text-lg mt-3 uppercase hover:animate-bounce"
+            >
+              Open
+            </button>
+          </a>
         </div>
       </div>
+      </div>
+      
       <div class="justify-center text-center">
         <RouterLink to="/projects">
           <button
@@ -128,5 +130,12 @@ import Contacts from "./Contacts.vue"
 }
 .slide-leave-to {
   transform: translate(-100%, 0);
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #project{
+   display: flex;
+  }
 }
 </style>

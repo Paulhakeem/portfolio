@@ -1,9 +1,9 @@
 <template>
   <div>
     <buttons/>
-    <div class="text-center pt-10">
+    <div class="text-center pt-20">
       <h3
-        class="text-2xl tracking-wide font-sans font-bold first-letter:uppercase text-blue-500"
+        class="text-2xl tracking-wide font-sans font-bold first-letter:uppercase text-gray-400"
       >
         posters / Logos
       </h3>

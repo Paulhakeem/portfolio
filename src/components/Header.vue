@@ -8,17 +8,18 @@
       <div
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       >
-        <a
+        <RouterLink to="/portfolio"
           class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-          href="#"
-          >Paul</a
-        ><button
+          >Paul</RouterLink
+        >
+        <!-- OPEN MENU -->
+        <button
           class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-          type="button"
-          onclick="toggleNavbar('example-collapse-navbar')"
+
         >
           <i class="text-white fas fa-bars"></i>
         </button>
+        <!--  -->
       </div>
       <div
         class="lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none hidden bg-blueGray-800"
@@ -26,30 +27,29 @@
       >
         <ul class="flex flex-col lg:flex-row list-none lg:ml-auto items-center">
           <li class="inline-block relative">
-            <a
+            <RouterLink to="/projects"
               class="text-gray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
             >
               My Projects
-            </a>
+            </RouterLink>
             <!--  -->
           </li>
           <li class="inline-block relative">
-            <a
+            <RouterLink to="/graphics"
               class="text-gray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
             >
               My Graphics
-            </a>
+            </RouterLink>
             <!--  -->
           </li>
-          
+
           <li class="flex items-center">
-            <a
+            <RouterLink
+              to="/contact-me"
               class="bg-white text-blueGray-700 active:bg-blueGray-50 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-              href="https://www.creative-tim.com/product/notus-js?ref=njs-index"
-              target="_blank"
             >
-              <i class="fas fa-arrow-alt-circle-down"></i> Contact Me
-            </a>
+              <i class="fa-solid fa-headset pr-1.5 text-md"></i>Contact Me
+            </RouterLink>
           </li>
         </ul>
       </div>
@@ -57,7 +57,9 @@
   </nav>
 </template>
 
-<script setup></script>
+<script setup>
+import { RouterLink } from "vue-router";
+</script>
 
 <style scoped>
 @media only screen and (max-width: 600px) {

@@ -1,14 +1,13 @@
 <script setup>
-import Projects from "./Projects.vue";
 </script>
 <template>
-  <div class="container border border-1 border-gray-500 rounded-md p-6 justify-center items-center max-w-3xl">
+  <div class="container border border-1 border-gray-500 rounded-md p-6 justify-center items-center max-w-3xl m-auto my-8">
     <div class="text-center">
-      <p class="text-2xl font-medium tracking-wider text-purple-600">
+      <p class="text-2xl font-medium tracking-wider text-gray-400">
         Tech stack/tools:
       </p>
     </div>
-    <div class="flex flex-wrap gap-4 md:gap-4 pt-4 m-auto justify-center max-w-lg">
+    <div class="flex flex-wrap gap-4 md:gap-4 pt-4 m-auto justify-center">
       <div>
         <img class="w-10 mx-auto" src="../assets/adobei.svg" />
         <p class="text-gray-400 text-sm">Illustrator</p>

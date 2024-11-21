@@ -8,7 +8,7 @@ import Header from "../components/Header.vue";
   <section>
     <Header />
     <div id="main">
-      <div id="profile" class="flex justify-center items-center">
+      <div id="profile" class="flex justify-center items-center m-auto">
         <div
           id="user"
           v-motion
@@ -32,9 +32,9 @@ import Header from "../components/Header.vue";
           :enter="{ opacity: 1, x: 0, scale: 1 }"
           :variants="{ custom: { scale: 6 } }"
           :delay="200"
-          class="pt-24 justify-center justify-self-center mx-auto"
+          class="justify-center justify-self-center mx-4"
         >
-          <div class="mx-4">
+          <div>
             <p class="text-2xl text-gray-400">Hi!👋</p>
             <h3
               class="my-3 text-4xl tracking-wide font-sans font-bold bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 text-transparent bg-clip-text"
@@ -43,7 +43,7 @@ import Header from "../components/Header.vue";
             </h3>
             <h6 class="text-gray-400 text-xl">A Front-End Developer</h6>
           </div>
-          <div id="user-info" class="px-4">
+          <div id="user-info">
             <p
               class="text-md tracking-wide font-light text-gray-300 text-balance"
             >
@@ -51,7 +51,7 @@ import Header from "../components/Header.vue";
               latest technology trends.
             </p>
           </div>
-          <span class="ml-4 italic text-gray-400"
+          <span class="italic text-gray-400"
             >"- With Small Steps, I Will Go Very Far_"</span
           >
           <div id="user-button" class="">

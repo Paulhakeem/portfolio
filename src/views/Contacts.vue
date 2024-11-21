@@ -1,13 +1,14 @@
 <template>
   <div>
+    <Header/>
     <div
-      class="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg shadow-lg mb-6 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32"
+      class="grid max-w-screen-xl grid-cols-1 gap-8 px-8 pt-20 mx-auto md:grid-cols-2 md:px-12 lg:px-16 xl:px-32"
     >
       <div class="flex flex-col justify-between">
         <div class="space-y-2 pt-2">
           <h2
             id="contact"
-            class="text-4xl font-bold leadi lg:text-3xl text-blue-500"
+            class="text-3xl font-medium leadi lg:text-3xl text-blue-500"
           >
             Let's have Chat!🤗
           </h2>
@@ -104,10 +105,10 @@
 
 <script setup>
 import { ref, computed } from "vue";
+import Header from "../components/Header.vue";
 import { useVuelidate } from "@vuelidate/core";
 import { required, email, minLength } from "@vuelidate/validators";
 import { useToast } from "vue-toastification";
-import axios from "axios";
 import emailjs from "@emailjs/browser";
 const { VITE_SERVICE_ID, VITE_EMPLATE_ID, VITE_PUBLIC_KEY } = import.meta.env;
 

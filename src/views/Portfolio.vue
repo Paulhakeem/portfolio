@@ -1,15 +1,14 @@
 <script setup>
-import { RouterLink } from "vue-router";
-import More from "../components/More.vue";
-import buttons from "../components/buttons.vue";
+import Skils from "../components/MySkills.vue";
 import HomeButtons from "../components/HomeButtons.vue";
 import { Vue3Lottie } from "vue3-lottie";
+import Header from "../components/Header.vue";
 </script>
 <template>
   <section>
-    <buttons />
-    <div id="main" class="mx-auto">
-      <div id="profile" class="flex justify-center">
+    <Header />
+    <div id="main">
+      <div id="profile" class="flex justify-center items-center">
         <div
           id="user"
           v-motion
@@ -36,67 +35,67 @@ import { Vue3Lottie } from "vue3-lottie";
           class="pt-24 justify-center justify-self-center mx-auto"
         >
           <div class="mx-4">
+            <p class="text-2xl text-gray-400">Hi!👋</p>
             <h3
-              class="text-4xl tracking-wide font-sans font-bold uppercase bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 text-transparent bg-clip-text"
+              class="my-3 text-4xl tracking-wide font-sans font-bold bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 text-transparent bg-clip-text"
             >
-              i am paul nyamawi
+              I learn, I develop....
             </h3>
+            <h6 class="text-gray-400 text-xl">A Front-End Developer</h6>
           </div>
-          <div id="user-info" class="px-4 pt-6">
+          <div id="user-info" class="px-4">
             <p
-              class="text-md tracking-wide font-light text-gray-400 text-balance"
+              class="text-md tracking-wide font-light text-gray-300 text-balance"
             >
-              Self taught
-              <span class="">Front-end Web Developer and Graphic designer</span>
-              who enjoy building everything from small business websites to rich
-              interactive websites. I create custom website to bring your idea
-              into life and help businesses do better online. <br />
-              If you are a business seeking a web presence or an employer
-              looking to hire you can get in touch with me.
+              I'm always eager to expand my skill set and stay current with the
+              latest technology trends.
             </p>
           </div>
-
+          <span class="ml-4 italic text-gray-400"
+            >"- With Small Steps, I Will Go Very Far_"</span
+          >
           <div id="user-button" class="">
             <home-buttons />
           </div>
         </div>
       </div>
-
-      <More />
+     
     </div>
+     <!-- MY SKILLS -->
+     <Skils />
   </section>
 </template>
 
 <style scoped>
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-#main{
-  align-items: center;
-  justify-content: center;
+  #main {
+    align-items: center;
+    justify-content: center;
+  }
+  #profile {
+    flex-wrap: wrap;
+    margin-left: 2em;
+  }
 }
-#profile{
-  flex-wrap: wrap;
-  margin-left: 2em;
-}
-}
-  /* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  #main{
-  align-items: center;
-  justify-content: center;
-}
-#profile{
-  flex-wrap: wrap;
-}
-#user-grid{
-  padding-left: 2em;
-  padding-right: 2em;
-}
+  #main {
+    align-items: center;
+    justify-content: center;
+  }
+  #profile {
+    flex-wrap: wrap;
+  }
+  #user-grid {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    #profile {
+  #profile {
     flex-wrap: nowrap;
   }
 }

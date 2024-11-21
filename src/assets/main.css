@@ -3,12 +3,9 @@
 @tailwind utilities;
 
 body {
-  /* background-color: ; */
-  overscroll-behavior: auto;
-  margin: auto;
-}
-.dark {
   background: #121a27;
   color: #36454f;
+  overscroll-behavior: auto;
+  margin: auto;
 }
 

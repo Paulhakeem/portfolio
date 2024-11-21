@@ -52,7 +52,7 @@
 </template>
 
 <script setup>
-import buttons from "../components/buttons.vue";
+import buttons from "../components/Header.vue";
 import { usePosterStore } from "../store/posters.js";
 import { useFlyerStore } from "../store/flyer.js";
 const usePoster = usePosterStore();

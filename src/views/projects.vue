@@ -161,5 +161,5 @@
 </template>
 
 <script setup>
-import buttons from "../components/buttons.vue";
+import buttons from "../components/Header.vue";
 </script>

@@ -24,11 +24,6 @@ const router = createRouter({
       path: '/graphics',
       name: 'graphics',
       component: () => import ('../views/graphics.vue')
-    },
-    {
-      path: '/certificates',
-      name: 'certificates',
-      component: () => import ('../views/certificates.vue')
     }
   ]
 })

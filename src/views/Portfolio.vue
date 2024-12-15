@@ -36,7 +36,7 @@ import Header from "../components/Header.vue";
         >
           <div>
             <p class="text-2xl text-gray-400">Hi!👋</p>
-            <h3
+            <h3 id="rule"
               class="my-3 text-4xl tracking-wide font-sans font-bold bg-gradient-to-r from-blue-600 via-green-500 to-blue-600 text-transparent bg-clip-text"
             >
               I learn, I develop....
@@ -98,5 +98,35 @@ import Header from "../components/Header.vue";
   #profile {
     flex-wrap: nowrap;
   }
+}
+
+@keyframes blinkCursor {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes typeAndDelete {
+  0%,
+  10% {
+    width: 0;
+  }
+  45%,
+  55% {
+    width: 9.2em;
+  } /* adjust width based on content */
+  90%,
+  100% {
+    width: 0;
+  }
+}
+
+#rule {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.1em solid blue; /* Cursor */
+  animation: typeAndDelete 4s steps(11) infinite,
+    blinkCursor 0.5s step-end infinite alternate;
 }
 </style>

@@ -41,7 +41,7 @@ import Header from "../components/Header.vue";
             >
               I learn, I develop....
             </h3>
-            <h6 class="text-gray-400 text-xl">A Front-End Developer</h6>
+            <h6 class="text-gray-400 text-xl">A Graphic Designer & Front-End Developer</h6>
           </div>
           <div id="user-info">
             <p

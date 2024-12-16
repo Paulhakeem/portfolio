@@ -8,7 +8,6 @@ import confirm from "../assets/graphic/confirm.jpg"
 import dolphin from "../assets/graphic/dolphin.jpg"
 import jamhuri from "../assets/graphic/jamhuri.jpg"
 import offer from "../assets/graphic/offer.jpg"
-import poster11 from "../assets/graphic/poster11.jpg"
 import poster6 from "../assets/graphic/poster6.jpg"
 import FISHION from "../assets/graphic/FISHION.jpg"
 import madaraka from "../assets/graphic/madaraka.jpg"
@@ -16,7 +15,6 @@ import poster4 from "../assets/graphic/poster4.jpg"
 import poster5 from "../assets/graphic/poster5.jpg"
 import wasini from "../assets/graphic/wasini.jpg"
 import newyear from "../assets/graphic/newyear.jpg"
-import may from "../assets/graphic/may.jpg"
 import valentines from "../assets/graphic/valentines.jpg"
 import holiday from "../assets/graphic/holiday.jpg"
 import farmlogo from "../assets/graphic/farmlogo.jpg"
@@ -42,35 +40,31 @@ export const usePosterStore = defineStore('posters', () => {
         image: customer,
       },
       {
-        id: 3,
+        id: 4,
         image: dolphin,
       },
       {
-        id: 3,
+        id: 5,
         image: ADVERT,
       },
       {
-        id: 3,
+        id: 6,
         image: bnb,
       },
       {
-        id: 3,
+        id: 7,
         image: jamhuri,
       },
       {
-        id: 3,
+        id: 8,
         image: offer,
       },
       {
-        id: 3,
-        image: poster11,
-      },
-      {
-        id: 3,
+        id: 9,
         image: poster6,
       },
       {
-        id: 3,
+        id: 10,
         image: FISHION,
       },
       {
@@ -92,10 +86,6 @@ export const usePosterStore = defineStore('posters', () => {
       {
         id: 3,
         image: newyear,
-      },
-      {
-        id: 3,
-        image: may,
       },
       {
         id: 3,

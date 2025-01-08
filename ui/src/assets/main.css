@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #121a27;
+  color: #36454f;
+  overscroll-behavior: auto;
+  margin: auto;
+}
+

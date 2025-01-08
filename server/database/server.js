@@ -15,7 +15,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 dotenv.config("./env");
-
+// send email
 app.post("/send-email", (req, res) => {
   const { from, subject, message } = req.body;
 

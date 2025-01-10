@@ -32,9 +32,9 @@ app.post("/send-email", (req, res) => {
 
   const emailTemplate = `
   <div>
-    <h1>
+    <h5>
       USER SUBJECT: ${subject}
-    </h2>
+    </h5>
     <p>
       ${message}
     </p>

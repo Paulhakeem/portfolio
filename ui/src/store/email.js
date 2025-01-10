@@ -4,7 +4,7 @@ import axios from "axios";
 export const useEmailStore = defineStore("email", () => {
   const sendEmail = async (from, subject, message) => {
     await axios
-      .post("https://dev-paul.vercel.app/send-email", {from, subject, message })
+      .post("http://localhost:5000/send-email", {from, subject, message })
       .then((result) => {
         console.log(result);
       })

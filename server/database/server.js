@@ -7,12 +7,12 @@ const cors = require("cors");
 const app = express();
 app.use(bodyParser.json());
 
-const corsOptions = {
-  origin: "https://dev-paul-portfolio.vercel.app",
-  methods: "GET,POST",
-};
+// const corsOptions = {
+//   origin: "https://dev-paul-portfolio.vercel.app/",
+//   methods: "GET,POST",
+// };
 
-app.use(cors(corsOptions));
+app.use(cors());
 
 dotenv.config("./env");
 // send email
@@ -51,13 +51,13 @@ app.post("/send-email", (req, res) => {
   transporter.sendMail(mailOption, (err, info) => {
     if (err) {
       res.status(500).json({
-        status: "fail",
-        text: "something went wrong",
+        statusCode: 500,
+        statusMessage: "something went wrong",
       });
     } else {
       res.status(200).json({
-        status: "success",
-        text: `Email sent:` + info.response,
+        statusCode: 200,
+        statusMessage: "Message Sent Successfull!",
       });
     }
   });

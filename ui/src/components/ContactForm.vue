@@ -61,6 +61,10 @@ const sendMessage = async () => {
       text.value
     );
     toast.success(res.data.statusMessage);
+
+    from.value = ""
+    subject.value = ""
+    text.value = ""
     
   } catch (error) {
     const errorMessage = error.response.data.statusMessage || error.message;

@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://dev-paul-portfolio.vercel.app",
   methods: "GET,POST",
 };
 

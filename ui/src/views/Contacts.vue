@@ -18,8 +18,13 @@
                 class="fa-solid fa-phone text-xl pt-2 rotate-20 text-blue-500"
               ></i>
               <div class="text-gray-500">
-                <p>+254 792 857 288</p>
-                <p>+254 759 732 432</p>
+                <a href="tel:+254 792 857 288">
+                  <p>+254 792 857 288</p>
+                </a>
+                <a href="tel:+254 759 732 432">
+                  <p>+254 759 732 432</p>
+                </a>
+               
               </div>
             </div>
 
@@ -28,8 +33,15 @@
                 class="fa-solid fa-envelope text-xl pt-2 rotate-20 text-blue-500"
               ></i>
               <div class="text-gray-500">
-                <p>paulnyamawi18@gmail.com</p>
-                <p>poltechnology01@gmail.com</p>
+                
+                  <a href="mailto:paulnyamawi18@gmail.com"
+                    >
+                    <p class="cursor-pointer">paulnyamawi18@gmail.com</p>
+                    </a
+                  >
+                <a href="mailto:poltechnology01@gmail.com">
+                  <p>poltechnology01@gmail.com</p>
+                </a>
               </div>
             </div>
           </div>

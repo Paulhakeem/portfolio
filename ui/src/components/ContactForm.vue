@@ -59,15 +59,15 @@ const sendMessage = async () => {
       subject.value,
       text.value
     );
-    // toast.success(res.data.statusMessage);
+    toast.success(res.data.statusMessage);
 
     from.value = ""
     subject.value = ""
     text.value = ""
     
   } catch (error) {
-    // const errorMessage = error.response.data.statusMessage || error.message;
-    // toast.error(errorMessage);
+    const errorMessage = error.response.data.statusMessage || error.message;
+    toast.error(errorMessage);
   }
 };
 </script>

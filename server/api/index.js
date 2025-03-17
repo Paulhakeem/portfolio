@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 
 const corsOptions = {
-  origin: "*", 
+  origin: "https://dev-paul-portfolio.vercel.app/", 
   credentials: true,
   optionsSuccessStatus: 204,
 };
@@ -17,7 +17,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-dotenv.config("./env")
+dotenv.config("./env");
 
 app.post("/send-email", (req, res) => {
   const { from, subject, message } = req.body;

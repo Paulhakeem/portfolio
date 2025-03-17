@@ -7,12 +7,9 @@ const cors = require("cors");
 const app = express();
 app.use(bodyParser.json());
 
-// const corsOptions = {
-//   origin: "https://dev-paul-portfolio.vercel.app/",
-//   methods: "GET,POST",
-// };
+
 const corsOptions = {
-  origin: "https://dev-paul-portfolio.vercel.app/", 
+  origin: "*", 
   credentials: true,
   optionsSuccessStatus: 204,
 };
@@ -20,7 +17,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-dotenv.config("./env");
+dotenv.config("./env")
 
 app.post("/send-email", (req, res) => {
   const { from, subject, message } = req.body;

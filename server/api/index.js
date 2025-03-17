@@ -11,8 +11,14 @@ app.use(bodyParser.json());
 //   origin: "https://dev-paul-portfolio.vercel.app/",
 //   methods: "GET,POST",
 // };
+const corsOptions = {
+  origin: "https://dev-paul-portfolio.vercel.app/", 
+  credentials: true,
+  optionsSuccessStatus: 204,
+};
 
-app.use(cors());
+
+app.use(cors(corsOptions));
 
 dotenv.config("./env");
 

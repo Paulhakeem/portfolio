@@ -1,7 +1,6 @@
 <template>
   <form
     ref="form"
-    action="https://formspree.io/f/xqkrkzdz"
     @submit.prevent="sendMessage"
     class="space-y-6"
   >

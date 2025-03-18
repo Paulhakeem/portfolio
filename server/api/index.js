@@ -9,19 +9,7 @@ dotenv.config("./env");
 app.use(bodyParser.json());
 
 
-const allowedOrigins =  ["https://dev-paul-portfolio.vercel.app"]
-
-
-app.use(cors({
-  origin: function(origin, callback) {
-    if(!origin || allowedOrigins.indexOf(origin) !== -1){
-      callback(null, true)
-    }else{
-      callback(new Error('Not allowed by CORS'))
-    }
-  }
-}))
-
+app.use(cors({origin: 'https://dev-paul-portfolio.vercel.app'}))
 
 app.post("/send-email", (req, res) => {
   const { from, subject, message } = req.body;

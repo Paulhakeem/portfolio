@@ -60,7 +60,7 @@ const sendMessage = async () => {
       text.value
     );
     // toast.success(res.data.statusMessage);
-    console.log(res.data.statusMessage);
+    console.log(res);
     
 
     from.value = ""
@@ -70,7 +70,7 @@ const sendMessage = async () => {
   } catch (error) {
     // const errorMessage = error.response.data.statusMessage || error.message;
     // toast.error(errorMessage);
-    console.log(error.response.data.statusMessagee);
+    console.log(error);
   }
 };
 </script>

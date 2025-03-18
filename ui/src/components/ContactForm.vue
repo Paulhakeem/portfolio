@@ -54,10 +54,16 @@ const text = ref("");
 
 const sendMessage = async () => {
   try {
-    const res = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/send-email`,
-      from.value,
-      subject.value,
-      text.value
+    const res = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/send-email`,{
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(from.value, subject.value, text.value)
+    }
+      // from.value,
+      // subject.value,
+      // text.value
     );
     // toast.success(res.data.statusMessage);
     console.log(res);

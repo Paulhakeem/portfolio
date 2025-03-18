@@ -8,14 +8,14 @@ const app = express();
 app.use(bodyParser.json());
 
 
-const corsOptions = {
+
+
+
+app.use(cors({
   origin: ["https://dev-paul-portfolio.vercel.app"], 
   methods: ["POST"]
   credentials: true,
-};
-
-
-app.use(cors(corsOptions));
+}));
 
 dotenv.config("./env");
 

@@ -2,22 +2,26 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
-const cors = require("cors");
+const cors = require('cors')
 
 const app = express();
+dotenv.config("./env");
 app.use(bodyParser.json());
 
 
-
+const allowedOrigins =  ["https://dev-paul-portfolio.vercel.app"]
 
 
 app.use(cors({
-  origin: ["https://dev-paul-portfolio.vercel.app"], 
-  methods: ["POST"]
-  credentials: true,
-}));
+  origin: function(origin, callback) {
+    if(!origin || allowedOrigins.indexOf(origin) !== -1){
+      callback(null, true)
+    }else{
+      callback(new Error('Not allowed by CORS'))
+    }
+  }
+}))
 
-dotenv.config("./env");
 
 app.post("/send-email", (req, res) => {
   const { from, subject, message } = req.body;

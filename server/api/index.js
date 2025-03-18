@@ -9,9 +9,9 @@ app.use(bodyParser.json());
 
 
 const corsOptions = {
-  origin: "https://dev-paul-portfolio.vercel.app", 
+  origin: ["https://dev-paul-portfolio.vercel.app"], 
+  methods: ["POST"]
   credentials: true,
-  optionsSuccessStatus: 204,
 };
 
 

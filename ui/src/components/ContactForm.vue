@@ -44,6 +44,7 @@
 import { useToast } from "vue-toastification";
 import { api } from "../utils/instance.js";
 import { ref } from "vue";
+import axios from "axios";
 
 const toast = useToast();
 
@@ -53,8 +54,7 @@ const text = ref("");
 
 const sendMessage = async () => {
   try {
-    const res = await api.post(
-      "/send-email",
+    const res = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/send-email`,
       from.value,
       subject.value,
       text.value

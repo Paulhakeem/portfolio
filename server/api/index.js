@@ -4,12 +4,21 @@ const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
 const cors = require('cors')
 
+
 const app = express();
 dotenv.config("./env");
 app.use(bodyParser.json());
 
+const allowedOrigins = [process.env.FRONT_END_URL]
 
-app.use(cors({origin: 'https://dev-paul-portfolio.vercel.app'}))
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+}}))
 
 app.post("/send-email", (req, res) => {
   const { from, subject, message } = req.body;

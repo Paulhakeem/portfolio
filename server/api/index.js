@@ -9,16 +9,13 @@ const app = express();
 dotenv.config("./env");
 app.use(bodyParser.json());
 
-const allowedOrigins = [process.env.FRONT_END_URL]
+// const allowedOrigins = [process.env.FRONT_END_URL]
 
 app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-}}))
+  origin: "https://dev-paul-portfolio.vercel.app", // allow only your frontend
+  methods: ["GET", "POST", "OPTIONS"],
+  allowedHeaders: ["Content-Type"]
+}));
 
 app.post("/send-email", (req, res) => {
   const { from, subject, message } = req.body;

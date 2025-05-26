@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 app.use(cors({
   origin: "https://dev-paul-portfolio.vercel.app", // allow only your frontend
-  methods: ["GET", "POST", "OPTIONS"],
+  methods: ["POST"],
   allowedHeaders: ["Content-Type"]
 }));
 

@@ -9,10 +9,9 @@ const app = express();
 dotenv.config("./env");
 app.use(bodyParser.json());
 
-// const allowedOrigins = [process.env.FRONT_END_URL]
 
 app.use(cors({
-  origin: "https://dev-paul-portfolio.vercel.app", // allow only your frontend
+  origin: process.env.FRONT_END_URL, // allow only your frontend
   methods: ["POST"],
   allowedHeaders: ["Content-Type"]
 }));

@@ -9,12 +9,24 @@ const app = express();
 dotenv.config("./env");
 app.use(bodyParser.json());
 
+const allowedOrigins = [
+  process.env.FRONT_END_URL,
+]
 
-app.use(cors({
-  origin: process.env.FRONT_END_URL, // allow only your frontend
-  methods: ["POST"],
-  allowedHeaders: ["Content-Type"]
-}));
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      if (!origin) return callback(null, true)
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true)
+      } else {
+        return callback(new Error('Not allowed by CORS'))
+      }
+    },
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  })
+)
 
 app.post("/send-email", (req, res) => {
   const { from, subject, message } = req.body;

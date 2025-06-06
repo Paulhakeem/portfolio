@@ -10,7 +10,7 @@ dotenv.config("./env");
 app.use(bodyParser.json());
 
 const allowedOrigins = [
-  'https://dev-paul-portfolio.vercel.app',
+  process.env.FRONT_END_URL,
 ]
 
 app.use(

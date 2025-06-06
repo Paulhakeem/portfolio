@@ -1,11 +1,20 @@
 {
+  "version": 2,
   "builds": [
-    { "src": "ui/package.json", "use": "@vercel/static-build", "config": { "distDir": "dist" } },
-    { "src": "server/api/index.js", "use": "@vercel/node" }
+    {
+      "src": "ui/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    },
+    {
+      "src": "server/api/index.js",
+      "use": "@vercel/node"
+    }
   ],
   "routes": [
-    { "src": "/send-email", "dest": "/server/api/index.js" },
-    { "src": "/(.*)", "dest": "/ui/dist/$1" }
+    {
+      "src": "/(.*)",
+      "dest": "server/api/index.js"
+    }
   ]
 }
-
